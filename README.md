@@ -2,10 +2,10 @@
 
 I'm focused on **software development, problem-solving, and data structures and algorithms**. I use GitHub to document what I'm learning and improve projects through clearer code, documentation, testing, and deployment.
 
-- 🔭 **Current focus:** DSA, backend development, and improving existing projects
-- 🧠 **Problem-solving:** Java, data structures and algorithms
-- 🛠️ **Building with:** JavaScript, Node.js, Express, HTML, CSS, MongoDB, and PostgreSQL
-- 🎯 **Goal:** Become a stronger software engineer by building, testing, and explaining practical projects
+-  **Current focus:** DSA, backend development, and improving existing projects
+-  **Problem-solving:** Java, data structures and algorithms
+-  **Building with:** JavaScript, Node.js, Express, HTML, CSS, MongoDB, and PostgreSQL
+-  **Goal:** Become a stronger software engineer by building, testing, and explaining practical projects
 
 ## Featured projects
 

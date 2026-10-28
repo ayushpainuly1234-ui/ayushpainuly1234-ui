@@ -3,7 +3,7 @@
 I'm an early-career developer focused on **Java, data structures and algorithms, and practical software projects**. I enjoy solving unfamiliar problems, understanding the reasoning behind a solution, and building applications that are documented and testable.
 
 - **Primary language:** Java
-- **DSA practice:** 550+ LeetCode problems solved; Java is my main problem-solving language
+- **DSA practice:** 700+ LeetCode problems solved in leetcode and vs code; Java is my main problem-solving language
 - **Development interests:** backend engineering, REST APIs, databases, and web applications
 - **Current growth areas:** stronger Java backend fundamentals, automated testing, and deployment
 

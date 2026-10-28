@@ -1,39 +1,41 @@
 # Hi, I'm Ujjwal Painuly 👋
 
-I'm focused on **software development, problem-solving, and data structures and algorithms**. I use GitHub to document what I'm learning and improve projects through clearer code, documentation, testing, and deployment.
+I'm an early-career developer focused on **Java, data structures and algorithms, and practical software projects**. I enjoy solving unfamiliar problems, understanding the reasoning behind a solution, and building applications that are documented and testable.
 
--  **Current focus:** DSA, backend development, and improving existing projects
--  **Problem-solving:** Java, data structures and algorithms
--  **Building with:** JavaScript, Node.js, Express, HTML, CSS, MongoDB, and PostgreSQL
--  **Goal:** Become a stronger software engineer by building, testing, and explaining practical projects
+- **Primary language:** Java
+- **DSA practice:** 500+ LeetCode problems solved; Java is my main problem-solving language
+- **Development interests:** backend engineering, REST APIs, databases, and web applications
+- **Current growth areas:** stronger Java backend fundamentals, automated testing, and deployment
 
-## Portfolio & DSA roadmap
+## Explore
 
-- **[Portfolio website source](https://github.com/ayushpainuly1234-ui/ayushpainuly1234-ui/tree/main/portfolio)** — personal developer site and selected projects.
-- **[DSA interview roadmap](https://github.com/ayushpainuly1234-ui/ayushpainuly1234-ui/blob/main/portfolio/roadmap.html)** — a searchable checklist covering FAANG patterns, graphs, and dynamic programming. Checklist progress is saved locally in the browser.
+- **[🌐 Live portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)** — introduction, projects, and skills
+- **[🧭 DSA interview roadmap](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/roadmap.html)** — searchable checklist for patterns, graphs, and dynamic programming
+- **[LeetCode profile](https://leetcode.com/u/WqmLOG8Fcr/)** — problem-solving activity
+- **[GitHub repositories](https://github.com/ayushpainuly1234-ui?tab=repositories)** — source code and practice projects
 
 ## Featured projects
 
 ### [CivicFix — Civic Issue Reporting & Repair Planner](https://github.com/ayushpainuly1234-ui/civicfix)
-A full-stack application for reporting local infrastructure issues and planning repairs under a limited budget.
+A full-stack portfolio project for reporting local infrastructure issues and planning repair work with a limited budget.
 - **Tech:** Node.js, Express, PostgreSQL, MongoDB, HTML, CSS, JavaScript
-- **Engineering focus:** REST APIs, authentication, data persistence, graph algorithms, shortest paths, and dynamic programming
-- **Status:** Deployment and end-to-end database verification are still in progress; this is not presented as a live production service.
+- **Engineering concepts:** REST APIs, authentication, data persistence, shortest paths, and dynamic programming
+- **Status:** **In progress.** Deployment and end-to-end database verification are not complete; no live production demo is claimed.
 
 ### [Advanced Java DSA](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
-A topic-organized collection of Java exercises covering trees, graphs, backtracking, and dynamic programming.
-- Separate topic folders and READMEs make exercises easier to navigate.
-- Used for practice, dry runs, and reviewing algorithm complexity.
+A topic-organized repository of Java practice covering graphs, trees, backtracking, and dynamic programming.
+- Separate topic folders and READMEs for easier navigation.
+- Useful for dry runs, reviewing algorithm patterns, and explaining complexity.
 
-### [Ujjwal Music Player](https://github.com/ayushpainuly1234-ui/ujjwal-music-player)
-A responsive browser-based music player built with HTML, CSS, vanilla JavaScript, and local audio assets.
-- Includes playlist controls, search/filtering, and playback progress.
-- Includes local setup instructions and a JavaScript syntax-check workflow.
+### [Ujjwal Music Player — Live demo](https://ayushpainuly1234-ui.github.io/ujjwal-music-player/)
+A responsive browser music player with playlist controls, title search, and playback progress.
+- **Tech:** HTML, CSS, vanilla JavaScript, and the HTML Audio API
+- [View source code](https://github.com/ayushpainuly1234-ui/ujjwal-music-player)
 
 ### [Java DSA Practice](https://github.com/ayushpainuly1234-ui/java-dsa-practice)
-Standalone Java exercises for programming fundamentals, loops, patterns, arrays, and matrix problems.
+Standalone Java exercises covering programming fundamentals, loops, patterns, arrays, and matrix problems.
 
-## Skills I'm working with
+## Skills
 
 **Languages:** Java, C, C++, JavaScript  
 **Backend & data:** Node.js, Express, MongoDB, PostgreSQL  
@@ -41,17 +43,17 @@ Standalone Java exercises for programming fundamentals, loops, patterns, arrays,
 **Core CS:** Data structures and algorithms, graph algorithms, dynamic programming, problem-solving  
 **Developer workflow:** Git, GitHub, REST APIs, automated checks, technical documentation
 
-## What I value
+## What I'm working to improve
 
-- Understand the problem before choosing an approach.
-- Explain time and space complexity and test important edge cases.
-- Write setup instructions that help another developer run a project.
-- Be honest about what is implemented, tested, and deployed.
+- Solve unfamiliar Medium-level DSA problems independently and under time constraints.
+- Explain the approach, correctness, time complexity, and space complexity clearly.
+- Build a Java backend application with Spring Boot, SQL, validation, and automated tests.
+- Verify projects from a clean setup and document what is implemented, tested, and deployed.
 
 ## Connect
 
 - GitHub: [@ayushpainuly1234-ui](https://github.com/ayushpainuly1234-ui)
+- LeetCode: [WqmLOG8Fcr](https://leetcode.com/u/WqmLOG8Fcr/)
 
 ---
-
-*Always learning. Building, testing, and improving one step at a time.*
+*Learn consistently. Build carefully. Verify honestly.*

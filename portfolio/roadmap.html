@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="Ujjwal Painuly's DSA interview-preparation checklist covering FAANG patterns, graphs, and dynamic programming.">
+  <title>DSA Roadmap — Ujjwal Painuly</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+  <script src="roadmap.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#roadmap-main">Skip to roadmap</a>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="index.html" aria-label="Ujjwal Painuly portfolio home">
+        <span class="brand-mark">UP<span>.</span></span><span class="brand-name">Ujjwal Painuly</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links" aria-label="Open navigation"><span></span><span></span></button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#about">About</a><a href="index.html#work">Projects</a><a href="roadmap.html" aria-current="page">DSA Roadmap</a><a href="index.html#toolkit">Toolkit</a><a class="nav-github" href="https://github.com/ayushpainuly1234-ui" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+  <main id="roadmap-main" class="roadmap-page wrap">
+    <section class="roadmap-hero">
+      <p class="eyebrow"><span class="status-dot"></span> CONSISTENCY OVER CRAMMING</p>
+      <h1>My DSA <span class="gradient-text">roadmap.</span></h1>
+      <p class="roadmap-intro">A pattern-wise practice checklist for interview preparation: core array patterns, graphs, and dynamic programming. Tick items as you solve and review them. Your progress is saved in this browser only.</p>
+      <div class="roadmap-actions">
+        <a class="button button-secondary" href="index.html">← Back to portfolio</a>
+        <a class="button button-primary" href="https://github.com/ayushpainuly1234-ui/advanced-java-dsa" target="_blank" rel="noreferrer">Java DSA repository ↗</a>
+      </div>
+    </section>
+    <section class="roadmap-controls" aria-label="Checklist controls">
+      <label class="roadmap-search-label" for="roadmap-search">Find a problem</label>
+      <input id="roadmap-search" class="roadmap-search" type="search" placeholder="Search title, pattern, or LC number…">
+      <div class="roadmap-progress-row">
+        <div><span id="roadmap-progress-label">0 of 22 completed</span><span class="roadmap-progress-note"> · saved on this browser</span></div>
+        <button id="reset-progress" class="reset-progress" type="button">Reset checklist</button>
+      </div>
+      <div class="roadmap-progress-track" role="progressbar" aria-label="Overall roadmap progress" aria-valuemin="0" aria-valuemax="22" aria-valuenow="0"><span id="roadmap-progress-bar"></span></div>
+      <div class="roadmap-filters" role="group" aria-label="Filter roadmap categories">
+        <button class="roadmap-filter is-active" type="button" data-filter="all">All sections</button>
+        <button class="roadmap-filter" type="button" data-filter="faang patterns">FAANG patterns</button>
+        <button class="roadmap-filter" type="button" data-filter="graphs">Graphs</button>
+        <button class="roadmap-filter" type="button" data-filter="dynamic programming">Dynamic programming</button>
+      </div>
+    </section>
+    <section class="roadmap-sections" aria-label="DSA checklist sections">
+      <details class="roadmap-category" data-group="faang patterns" open>
+        <summary>
+          <span class="category-title">1. Sliding Window</span>
+          <span class="category-meta"><span class="category-count">35 tasks</span><span class="category-progress">0/35</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 643 — maximum average subarray i"><input type="checkbox" data-task-id="task-0-0"><span>LC 643 — Maximum Average Subarray I</span></label>
+          <label class="roadmap-task" data-search="lc 1456 — maximum number of vowels in a substring"><input type="checkbox" data-task-id="task-0-1"><span>LC 1456 — Maximum Number of Vowels in a Substring</span></label>
+          <label class="roadmap-task" data-search="lc 1343 — number of subarrays of size k"><input type="checkbox" data-task-id="task-0-2"><span>LC 1343 — Number of Subarrays of Size K</span></label>
+          <label class="roadmap-task" data-search="lc 209 — minimum size subarray sum"><input type="checkbox" data-task-id="task-0-3"><span>LC 209 — Minimum Size Subarray Sum</span></label>
+          <label class="roadmap-task" data-search="lc 3 — longest substring without repeating characters"><input type="checkbox" data-task-id="task-0-4"><span>LC 3 — Longest Substring Without Repeating Characters</span></label>
+          <label class="roadmap-task" data-search="lc 1004 — max consecutive ones iii"><input type="checkbox" data-task-id="task-0-5"><span>LC 1004 — Max Consecutive Ones III</span></label>
+          <label class="roadmap-task" data-search="lc 1493 — longest subarray of 1's after deleting one"><input type="checkbox" data-task-id="task-0-6"><span>LC 1493 — Longest Subarray of 1's After Deleting One</span></label>
+          <label class="roadmap-task" data-search="lc 904 — fruit into baskets"><input type="checkbox" data-task-id="task-0-7"><span>LC 904 — Fruit Into Baskets</span></label>
+          <label class="roadmap-task" data-search="lc 713 — subarray product less than k"><input type="checkbox" data-task-id="task-0-8"><span>LC 713 — Subarray Product Less Than K</span></label>
+          <label class="roadmap-task" data-search="lc 1208 — get equal substrings within budget"><input type="checkbox" data-task-id="task-0-9"><span>LC 1208 — Get Equal Substrings Within Budget</span></label>
+          <label class="roadmap-task" data-search="lc 567 — permutation in string"><input type="checkbox" data-task-id="task-0-10"><span>LC 567 — Permutation in String</span></label>
+          <label class="roadmap-task" data-search="lc 438 — find all anagrams in a string"><input type="checkbox" data-task-id="task-0-11"><span>LC 438 — Find All Anagrams in a String</span></label>
+          <label class="roadmap-task" data-search="lc 424 — longest repeating character replacement"><input type="checkbox" data-task-id="task-0-12"><span>LC 424 — Longest Repeating Character Replacement</span></label>
+          <label class="roadmap-task" data-search="lc 76 — minimum window substring"><input type="checkbox" data-task-id="task-0-13"><span>LC 76 — Minimum Window Substring</span></label>
+          <label class="roadmap-task" data-search="lc 30 — substring with concatenation of all words"><input type="checkbox" data-task-id="task-0-14"><span>LC 30 — Substring with Concatenation of All Words</span></label>
+          <label class="roadmap-task" data-search="lc 340 — longest substring with at most k distinct characters"><input type="checkbox" data-task-id="task-0-15"><span>LC 340 — Longest Substring with At Most K Distinct Characters</span></label>
+          <label class="roadmap-task" data-search="lc 159 — longest substring with at most two distinct characters"><input type="checkbox" data-task-id="task-0-16"><span>LC 159 — Longest Substring with At Most Two Distinct Characters</span></label>
+          <label class="roadmap-task" data-search="lc 992 — subarrays with k different integers"><input type="checkbox" data-task-id="task-0-17"><span>LC 992 — Subarrays with K Different Integers</span></label>
+          <label class="roadmap-task" data-search="lc 1248 — count number of nice subarrays"><input type="checkbox" data-task-id="task-0-18"><span>LC 1248 — Count Number of Nice Subarrays</span></label>
+          <label class="roadmap-task" data-search="lc 930 — binary subarrays with sum"><input type="checkbox" data-task-id="task-0-19"><span>LC 930 — Binary Subarrays With Sum</span></label>
+          <label class="roadmap-task" data-search="lc 239 — sliding window maximum"><input type="checkbox" data-task-id="task-0-20"><span>LC 239 — Sliding Window Maximum</span></label>
+          <label class="roadmap-task" data-search="lc 480 — sliding window median"><input type="checkbox" data-task-id="task-0-21"><span>LC 480 — Sliding Window Median</span></label>
+          <label class="roadmap-task" data-search="lc 2444 — count subarrays with fixed bounds"><input type="checkbox" data-task-id="task-0-22"><span>LC 2444 — Count Subarrays With Fixed Bounds</span></label>
+          <label class="roadmap-task" data-search="lc 1695 — maximum erasure value"><input type="checkbox" data-task-id="task-0-23"><span>LC 1695 — Maximum Erasure Value</span></label>
+          <label class="roadmap-task" data-search="lc 2024 — maximize the confusion of an exam"><input type="checkbox" data-task-id="task-0-24"><span>LC 2024 — Maximize the Confusion of an Exam</span></label>
+          <label class="roadmap-task" data-search="lc 1838 — frequency of the most frequent element"><input type="checkbox" data-task-id="task-0-25"><span>LC 1838 — Frequency of the Most Frequent Element</span></label>
+          <label class="roadmap-task" data-search="lc 2958 — length of longest subarray with at most k frequency"><input type="checkbox" data-task-id="task-0-26"><span>LC 2958 — Length of Longest Subarray With At Most K Frequency</span></label>
+          <label class="roadmap-task" data-search="lc 1234 — replace the substring for balanced string"><input type="checkbox" data-task-id="task-0-27"><span>LC 1234 — Replace the Substring for Balanced String</span></label>
+          <label class="roadmap-task" data-search="lc 632 — smallest range covering elements from k lists"><input type="checkbox" data-task-id="task-0-28"><span>LC 632 — Smallest Range Covering Elements from K Lists</span></label>
+          <label class="roadmap-task" data-search="lc 1574 — shortest subarray to be removed to make array sorted"><input type="checkbox" data-task-id="task-0-29"><span>LC 1574 — Shortest Subarray to be Removed to Make Array Sorted</span></label>
+          <label class="roadmap-task" data-search="gfg — smallest distinct window"><input type="checkbox" data-task-id="task-0-30"><span>GFG — Smallest Distinct Window</span></label>
+          <label class="roadmap-task" data-search="gfg — first negative integer in every window"><input type="checkbox" data-task-id="task-0-31"><span>GFG — First Negative Integer in Every Window</span></label>
+          <label class="roadmap-task" data-search="gfg — max of all subarrays of size k"><input type="checkbox" data-task-id="task-0-32"><span>GFG — Max of All Subarrays of Size K</span></label>
+          <label class="roadmap-task" data-search="gfg — longest substring with k unique characters"><input type="checkbox" data-task-id="task-0-33"><span>GFG — Longest Substring with K Unique Characters</span></label>
+          <label class="roadmap-task" data-search="gfg — count occurrences of anagrams"><input type="checkbox" data-task-id="task-0-34"><span>GFG — Count Occurrences of Anagrams</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">2. Two Pointers</span>
+          <span class="category-meta"><span class="category-count">24 tasks</span><span class="category-progress">0/24</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 11 — container with most water"><input type="checkbox" data-task-id="task-1-0"><span>LC 11 — Container With Most Water</span></label>
+          <label class="roadmap-task" data-search="lc 15 — 3sum"><input type="checkbox" data-task-id="task-1-1"><span>LC 15 — 3Sum</span></label>
+          <label class="roadmap-task" data-search="lc 16 — 3sum closest"><input type="checkbox" data-task-id="task-1-2"><span>LC 16 — 3Sum Closest</span></label>
+          <label class="roadmap-task" data-search="lc 18 — 4sum"><input type="checkbox" data-task-id="task-1-3"><span>LC 18 — 4Sum</span></label>
+          <label class="roadmap-task" data-search="lc 26 — remove duplicates from sorted array"><input type="checkbox" data-task-id="task-1-4"><span>LC 26 — Remove Duplicates from Sorted Array</span></label>
+          <label class="roadmap-task" data-search="lc 27 — remove element"><input type="checkbox" data-task-id="task-1-5"><span>LC 27 — Remove Element</span></label>
+          <label class="roadmap-task" data-search="lc 75 — sort colors"><input type="checkbox" data-task-id="task-1-6"><span>LC 75 — Sort Colors</span></label>
+          <label class="roadmap-task" data-search="lc 80 — remove duplicates from sorted array ii"><input type="checkbox" data-task-id="task-1-7"><span>LC 80 — Remove Duplicates from Sorted Array II</span></label>
+          <label class="roadmap-task" data-search="lc 125 — valid palindrome"><input type="checkbox" data-task-id="task-1-8"><span>LC 125 — Valid Palindrome</span></label>
+          <label class="roadmap-task" data-search="lc 167 — two sum ii"><input type="checkbox" data-task-id="task-1-9"><span>LC 167 — Two Sum II</span></label>
+          <label class="roadmap-task" data-search="lc 283 — move zeroes"><input type="checkbox" data-task-id="task-1-10"><span>LC 283 — Move Zeroes</span></label>
+          <label class="roadmap-task" data-search="lc 344 — reverse string"><input type="checkbox" data-task-id="task-1-11"><span>LC 344 — Reverse String</span></label>
+          <label class="roadmap-task" data-search="lc 345 — reverse vowels of a string"><input type="checkbox" data-task-id="task-1-12"><span>LC 345 — Reverse Vowels of a String</span></label>
+          <label class="roadmap-task" data-search="lc 392 — is subsequence"><input type="checkbox" data-task-id="task-1-13"><span>LC 392 — Is Subsequence</span></label>
+          <label class="roadmap-task" data-search="lc 844 — backspace string compare"><input type="checkbox" data-task-id="task-1-14"><span>LC 844 — Backspace String Compare</span></label>
+          <label class="roadmap-task" data-search="lc 881 — boats to save people"><input type="checkbox" data-task-id="task-1-15"><span>LC 881 — Boats to Save People</span></label>
+          <label class="roadmap-task" data-search="lc 42 — trapping rain water"><input type="checkbox" data-task-id="task-1-16"><span>LC 42 — Trapping Rain Water</span></label>
+          <label class="roadmap-task" data-search="lc 977 — squares of a sorted array"><input type="checkbox" data-task-id="task-1-17"><span>LC 977 — Squares of a Sorted Array</span></label>
+          <label class="roadmap-task" data-search="lc 923 — 3sum with multiplicity"><input type="checkbox" data-task-id="task-1-18"><span>LC 923 — 3Sum With Multiplicity</span></label>
+          <label class="roadmap-task" data-search="lc 948 — bag of tokens"><input type="checkbox" data-task-id="task-1-19"><span>LC 948 — Bag of Tokens</span></label>
+          <label class="roadmap-task" data-search="lc 1577 — number of ways where square of number is equal to product of two numbers"><input type="checkbox" data-task-id="task-1-20"><span>LC 1577 — Number of Ways Where Square of Number Is Equal to Product of Two Numbers</span></label>
+          <label class="roadmap-task" data-search="lc 1498 — number of subsequences that satisfy the given sum condition"><input type="checkbox" data-task-id="task-1-21"><span>LC 1498 — Number of Subsequences That Satisfy the Given Sum Condition</span></label>
+          <label class="roadmap-task" data-search="lc 259 — 3sum smaller"><input type="checkbox" data-task-id="task-1-22"><span>LC 259 — 3Sum Smaller</span></label>
+          <label class="roadmap-task" data-search="lc 360 — sort transformed array"><input type="checkbox" data-task-id="task-1-23"><span>LC 360 — Sort Transformed Array</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">3. Prefix Sum + HashMap</span>
+          <span class="category-meta"><span class="category-count">19 tasks</span><span class="category-progress">0/19</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 560 — subarray sum equals k"><input type="checkbox" data-task-id="task-2-0"><span>LC 560 — Subarray Sum Equals K</span></label>
+          <label class="roadmap-task" data-search="lc 974 — subarray sums divisible by k"><input type="checkbox" data-task-id="task-2-1"><span>LC 974 — Subarray Sums Divisible by K</span></label>
+          <label class="roadmap-task" data-search="lc 523 — continuous subarray sum"><input type="checkbox" data-task-id="task-2-2"><span>LC 523 — Continuous Subarray Sum</span></label>
+          <label class="roadmap-task" data-search="lc 525 — contiguous array"><input type="checkbox" data-task-id="task-2-3"><span>LC 525 — Contiguous Array</span></label>
+          <label class="roadmap-task" data-search="lc 930 — binary subarrays with sum"><input type="checkbox" data-task-id="task-2-4"><span>LC 930 — Binary Subarrays With Sum</span></label>
+          <label class="roadmap-task" data-search="lc 1248 — count number of nice subarrays"><input type="checkbox" data-task-id="task-2-5"><span>LC 1248 — Count Number of Nice Subarrays</span></label>
+          <label class="roadmap-task" data-search="lc 325 — maximum size subarray sum equals k"><input type="checkbox" data-task-id="task-2-6"><span>LC 325 — Maximum Size Subarray Sum Equals K</span></label>
+          <label class="roadmap-task" data-search="lc 1124 — longest well-performing interval"><input type="checkbox" data-task-id="task-2-7"><span>LC 1124 — Longest Well-Performing Interval</span></label>
+          <label class="roadmap-task" data-search="lc 1590 — make sum divisible by p"><input type="checkbox" data-task-id="task-2-8"><span>LC 1590 — Make Sum Divisible by P</span></label>
+          <label class="roadmap-task" data-search="lc 1371 — longest substring containing vowels in even counts"><input type="checkbox" data-task-id="task-2-9"><span>LC 1371 — Longest Substring Containing Vowels in Even Counts</span></label>
+          <label class="roadmap-task" data-search="lc 1658 — minimum operations to reduce x to zero"><input type="checkbox" data-task-id="task-2-10"><span>LC 1658 — Minimum Operations to Reduce X to Zero</span></label>
+          <label class="roadmap-task" data-search="lc 2488 — count subarrays with median k"><input type="checkbox" data-task-id="task-2-11"><span>LC 2488 — Count Subarrays With Median K</span></label>
+          <label class="roadmap-task" data-search="lc 2845 — count of interesting subarrays"><input type="checkbox" data-task-id="task-2-12"><span>LC 2845 — Count of Interesting Subarrays</span></label>
+          <label class="roadmap-task" data-search="lc 363 — max sum of rectangle no larger than k"><input type="checkbox" data-task-id="task-2-13"><span>LC 363 — Max Sum of Rectangle No Larger Than K</span></label>
+          <label class="roadmap-task" data-search="lc 1074 — number of submatrices that sum to target"><input type="checkbox" data-task-id="task-2-14"><span>LC 1074 — Number of Submatrices That Sum to Target</span></label>
+          <label class="roadmap-task" data-search="gfg — largest subarray with 0 sum"><input type="checkbox" data-task-id="task-2-15"><span>GFG — Largest Subarray with 0 Sum</span></label>
+          <label class="roadmap-task" data-search="gfg — longest consecutive subsequence"><input type="checkbox" data-task-id="task-2-16"><span>GFG — Longest Consecutive Subsequence</span></label>
+          <label class="roadmap-task" data-search="gfg — count subarrays with given xor"><input type="checkbox" data-task-id="task-2-17"><span>GFG — Count Subarrays with Given XOR</span></label>
+          <label class="roadmap-task" data-search="gfg — subarray with given sum"><input type="checkbox" data-task-id="task-2-18"><span>GFG — Subarray with Given Sum</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">4. Binary Search</span>
+          <span class="category-meta"><span class="category-count">34 tasks</span><span class="category-progress">0/34</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 704 — binary search"><input type="checkbox" data-task-id="task-3-0"><span>LC 704 — Binary Search</span></label>
+          <label class="roadmap-task" data-search="lc 35 — search insert position"><input type="checkbox" data-task-id="task-3-1"><span>LC 35 — Search Insert Position</span></label>
+          <label class="roadmap-task" data-search="lc 33 — search in rotated sorted array"><input type="checkbox" data-task-id="task-3-2"><span>LC 33 — Search in Rotated Sorted Array</span></label>
+          <label class="roadmap-task" data-search="lc 81 — search in rotated sorted array ii"><input type="checkbox" data-task-id="task-3-3"><span>LC 81 — Search in Rotated Sorted Array II</span></label>
+          <label class="roadmap-task" data-search="lc 153 — find minimum in rotated sorted array"><input type="checkbox" data-task-id="task-3-4"><span>LC 153 — Find Minimum in Rotated Sorted Array</span></label>
+          <label class="roadmap-task" data-search="lc 154 — find minimum in rotated sorted array ii"><input type="checkbox" data-task-id="task-3-5"><span>LC 154 — Find Minimum in Rotated Sorted Array II</span></label>
+          <label class="roadmap-task" data-search="lc 162 — find peak element"><input type="checkbox" data-task-id="task-3-6"><span>LC 162 — Find Peak Element</span></label>
+          <label class="roadmap-task" data-search="lc 852 — peak index in a mountain array"><input type="checkbox" data-task-id="task-3-7"><span>LC 852 — Peak Index in a Mountain Array</span></label>
+          <label class="roadmap-task" data-search="lc 540 — single element in a sorted array"><input type="checkbox" data-task-id="task-3-8"><span>LC 540 — Single Element in a Sorted Array</span></label>
+          <label class="roadmap-task" data-search="lc 278 — first bad version"><input type="checkbox" data-task-id="task-3-9"><span>LC 278 — First Bad Version</span></label>
+          <label class="roadmap-task" data-search="lc 875 — koko eating bananas"><input type="checkbox" data-task-id="task-3-10"><span>LC 875 — Koko Eating Bananas</span></label>
+          <label class="roadmap-task" data-search="lc 1011 — capacity to ship packages within d days"><input type="checkbox" data-task-id="task-3-11"><span>LC 1011 — Capacity To Ship Packages Within D Days</span></label>
+          <label class="roadmap-task" data-search="lc 410 — split array largest sum"><input type="checkbox" data-task-id="task-3-12"><span>LC 410 — Split Array Largest Sum</span></label>
+          <label class="roadmap-task" data-search="lc 1482 — minimum number of days to make m bouquets"><input type="checkbox" data-task-id="task-3-13"><span>LC 1482 — Minimum Number of Days to Make m Bouquets</span></label>
+          <label class="roadmap-task" data-search="lc 2187 — minimum time to complete trips"><input type="checkbox" data-task-id="task-3-14"><span>LC 2187 — Minimum Time to Complete Trips</span></label>
+          <label class="roadmap-task" data-search="lc 2064 — minimized maximum of products distributed to any store"><input type="checkbox" data-task-id="task-3-15"><span>LC 2064 — Minimized Maximum of Products Distributed to Any Store</span></label>
+          <label class="roadmap-task" data-search="lc 2226 — maximum candies allocated to k children"><input type="checkbox" data-task-id="task-3-16"><span>LC 2226 — Maximum Candies Allocated to K Children</span></label>
+          <label class="roadmap-task" data-search="lc 1552 — magnetic force between two balls"><input type="checkbox" data-task-id="task-3-17"><span>LC 1552 — Magnetic Force Between Two Balls</span></label>
+          <label class="roadmap-task" data-search="lc 1870 — minimum speed to arrive on time"><input type="checkbox" data-task-id="task-3-18"><span>LC 1870 — Minimum Speed to Arrive on Time</span></label>
+          <label class="roadmap-task" data-search="lc 1891 — cutting ribbons"><input type="checkbox" data-task-id="task-3-19"><span>LC 1891 — Cutting Ribbons</span></label>
+          <label class="roadmap-task" data-search="lc 4 — median of two sorted arrays"><input type="checkbox" data-task-id="task-3-20"><span>LC 4 — Median of Two Sorted Arrays</span></label>
+          <label class="roadmap-task" data-search="lc 378 — kth smallest element in a sorted matrix"><input type="checkbox" data-task-id="task-3-21"><span>LC 378 — Kth Smallest Element in a Sorted Matrix</span></label>
+          <label class="roadmap-task" data-search="lc 668 — kth smallest number in multiplication table"><input type="checkbox" data-task-id="task-3-22"><span>LC 668 — Kth Smallest Number in Multiplication Table</span></label>
+          <label class="roadmap-task" data-search="lc 719 — find k-th smallest pair distance"><input type="checkbox" data-task-id="task-3-23"><span>LC 719 — Find K-th Smallest Pair Distance</span></label>
+          <label class="roadmap-task" data-search="lc 786 — k-th smallest prime fraction"><input type="checkbox" data-task-id="task-3-24"><span>LC 786 — K-th Smallest Prime Fraction</span></label>
+          <label class="roadmap-task" data-search="lc 1201 — ugly number iii"><input type="checkbox" data-task-id="task-3-25"><span>LC 1201 — Ugly Number III</span></label>
+          <label class="roadmap-task" data-search="lc 1231 — divide chocolate"><input type="checkbox" data-task-id="task-3-26"><span>LC 1231 — Divide Chocolate</span></label>
+          <label class="roadmap-task" data-search="lc 644 — maximum average subarray ii"><input type="checkbox" data-task-id="task-3-27"><span>LC 644 — Maximum Average Subarray II</span></label>
+          <label class="roadmap-task" data-search="lc 774 — minimize max distance to gas station"><input type="checkbox" data-task-id="task-3-28"><span>LC 774 — Minimize Max Distance to Gas Station</span></label>
+          <label class="roadmap-task" data-search="lc 2141 — maximum running time of n computers"><input type="checkbox" data-task-id="task-3-29"><span>LC 2141 — Maximum Running Time of N Computers</span></label>
+          <label class="roadmap-task" data-search="gfg — aggressive cows"><input type="checkbox" data-task-id="task-3-30"><span>GFG — Aggressive Cows</span></label>
+          <label class="roadmap-task" data-search="gfg — book allocation problem"><input type="checkbox" data-task-id="task-3-31"><span>GFG — Book Allocation Problem</span></label>
+          <label class="roadmap-task" data-search="gfg — painter's partition problem"><input type="checkbox" data-task-id="task-3-32"><span>GFG — Painter's Partition Problem</span></label>
+          <label class="roadmap-task" data-search="spoj — eko"><input type="checkbox" data-task-id="task-3-33"><span>SPOJ — EKO</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">5. Monotonic Stack</span>
+          <span class="category-meta"><span class="category-count">18 tasks</span><span class="category-progress">0/18</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 84 — largest rectangle in histogram"><input type="checkbox" data-task-id="task-4-0"><span>LC 84 — Largest Rectangle in Histogram</span></label>
+          <label class="roadmap-task" data-search="lc 85 — maximal rectangle"><input type="checkbox" data-task-id="task-4-1"><span>LC 85 — Maximal Rectangle</span></label>
+          <label class="roadmap-task" data-search="lc 739 — daily temperatures"><input type="checkbox" data-task-id="task-4-2"><span>LC 739 — Daily Temperatures</span></label>
+          <label class="roadmap-task" data-search="lc 496 — next greater element i"><input type="checkbox" data-task-id="task-4-3"><span>LC 496 — Next Greater Element I</span></label>
+          <label class="roadmap-task" data-search="lc 503 — next greater element ii"><input type="checkbox" data-task-id="task-4-4"><span>LC 503 — Next Greater Element II</span></label>
+          <label class="roadmap-task" data-search="lc 901 — online stock span"><input type="checkbox" data-task-id="task-4-5"><span>LC 901 — Online Stock Span</span></label>
+          <label class="roadmap-task" data-search="lc 907 — sum of subarray minimums"><input type="checkbox" data-task-id="task-4-6"><span>LC 907 — Sum of Subarray Minimums</span></label>
+          <label class="roadmap-task" data-search="lc 2104 — sum of subarray ranges"><input type="checkbox" data-task-id="task-4-7"><span>LC 2104 — Sum of Subarray Ranges</span></label>
+          <label class="roadmap-task" data-search="lc 2281 — sum of total strength of wizards"><input type="checkbox" data-task-id="task-4-8"><span>LC 2281 — Sum of Total Strength of Wizards</span></label>
+          <label class="roadmap-task" data-search="lc 456 — 132 pattern"><input type="checkbox" data-task-id="task-4-9"><span>LC 456 — 132 Pattern</span></label>
+          <label class="roadmap-task" data-search="lc 1475 — final prices with a special discount in a shop"><input type="checkbox" data-task-id="task-4-10"><span>LC 1475 — Final Prices With a Special Discount in a Shop</span></label>
+          <label class="roadmap-task" data-search="lc 1944 — number of visible people in a queue"><input type="checkbox" data-task-id="task-4-11"><span>LC 1944 — Number of Visible People in a Queue</span></label>
+          <label class="roadmap-task" data-search="lc 2866 — beautiful towers ii"><input type="checkbox" data-task-id="task-4-12"><span>LC 2866 — Beautiful Towers II</span></label>
+          <label class="roadmap-task" data-search="lc 2454 — next greater element iv"><input type="checkbox" data-task-id="task-4-13"><span>LC 2454 — Next Greater Element IV</span></label>
+          <label class="roadmap-task" data-search="lc 1856 — maximum subarray min-product"><input type="checkbox" data-task-id="task-4-14"><span>LC 1856 — Maximum Subarray Min-Product</span></label>
+          <label class="roadmap-task" data-search="gfg — the celebrity problem"><input type="checkbox" data-task-id="task-4-15"><span>GFG — The Celebrity Problem</span></label>
+          <label class="roadmap-task" data-search="gfg — maximum histogram area"><input type="checkbox" data-task-id="task-4-16"><span>GFG — Maximum Histogram Area</span></label>
+          <label class="roadmap-task" data-search="gfg — next greater element"><input type="checkbox" data-task-id="task-4-17"><span>GFG — Next Greater Element</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">6. Kadane + Subarray</span>
+          <span class="category-meta"><span class="category-count">10 tasks</span><span class="category-progress">0/10</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 53 — maximum subarray"><input type="checkbox" data-task-id="task-5-0"><span>LC 53 — Maximum Subarray</span></label>
+          <label class="roadmap-task" data-search="lc 918 — maximum sum circular subarray"><input type="checkbox" data-task-id="task-5-1"><span>LC 918 — Maximum Sum Circular Subarray</span></label>
+          <label class="roadmap-task" data-search="lc 152 — maximum product subarray"><input type="checkbox" data-task-id="task-5-2"><span>LC 152 — Maximum Product Subarray</span></label>
+          <label class="roadmap-task" data-search="lc 1749 — maximum absolute sum of any subarray"><input type="checkbox" data-task-id="task-5-3"><span>LC 1749 — Maximum Absolute Sum of Any Subarray</span></label>
+          <label class="roadmap-task" data-search="lc 1191 — k-concatenation maximum sum"><input type="checkbox" data-task-id="task-5-4"><span>LC 1191 — K-Concatenation Maximum Sum</span></label>
+          <label class="roadmap-task" data-search="lc 1567 — maximum length of subarray with positive product"><input type="checkbox" data-task-id="task-5-5"><span>LC 1567 — Maximum Length of Subarray With Positive Product</span></label>
+          <label class="roadmap-task" data-search="lc 1186 — maximum subarray sum with one deletion"><input type="checkbox" data-task-id="task-5-6"><span>LC 1186 — Maximum Subarray Sum With One Deletion</span></label>
+          <label class="roadmap-task" data-search="lc 2321 — maximum score of spliced array"><input type="checkbox" data-task-id="task-5-7"><span>LC 2321 — Maximum Score Of Spliced Array</span></label>
+          <label class="roadmap-task" data-search="lc 978 — longest turbulent subarray"><input type="checkbox" data-task-id="task-5-8"><span>LC 978 — Longest Turbulent Subarray</span></label>
+          <label class="roadmap-task" data-search="lc 845 — longest mountain in array"><input type="checkbox" data-task-id="task-5-9"><span>LC 845 — Longest Mountain in Array</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">7. Intervals</span>
+          <span class="category-meta"><span class="category-count">15 tasks</span><span class="category-progress">0/15</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 56 — merge intervals"><input type="checkbox" data-task-id="task-6-0"><span>LC 56 — Merge Intervals</span></label>
+          <label class="roadmap-task" data-search="lc 57 — insert interval"><input type="checkbox" data-task-id="task-6-1"><span>LC 57 — Insert Interval</span></label>
+          <label class="roadmap-task" data-search="lc 435 — non-overlapping intervals"><input type="checkbox" data-task-id="task-6-2"><span>LC 435 — Non-overlapping Intervals</span></label>
+          <label class="roadmap-task" data-search="lc 452 — minimum number of arrows to burst balloons"><input type="checkbox" data-task-id="task-6-3"><span>LC 452 — Minimum Number of Arrows to Burst Balloons</span></label>
+          <label class="roadmap-task" data-search="lc 253 — meeting rooms ii"><input type="checkbox" data-task-id="task-6-4"><span>LC 253 — Meeting Rooms II</span></label>
+          <label class="roadmap-task" data-search="lc 1288 — remove covered intervals"><input type="checkbox" data-task-id="task-6-5"><span>LC 1288 — Remove Covered Intervals</span></label>
+          <label class="roadmap-task" data-search="lc 986 — interval list intersections"><input type="checkbox" data-task-id="task-6-6"><span>LC 986 — Interval List Intersections</span></label>
+          <label class="roadmap-task" data-search="lc 1024 — video stitching"><input type="checkbox" data-task-id="task-6-7"><span>LC 1024 — Video Stitching</span></label>
+          <label class="roadmap-task" data-search="lc 2406 — divide intervals into minimum number of groups"><input type="checkbox" data-task-id="task-6-8"><span>LC 2406 — Divide Intervals Into Minimum Number of Groups</span></label>
+          <label class="roadmap-task" data-search="lc 729 — my calendar i"><input type="checkbox" data-task-id="task-6-9"><span>LC 729 — My Calendar I</span></label>
+          <label class="roadmap-task" data-search="lc 731 — my calendar ii"><input type="checkbox" data-task-id="task-6-10"><span>LC 731 — My Calendar II</span></label>
+          <label class="roadmap-task" data-search="lc 732 — my calendar iii"><input type="checkbox" data-task-id="task-6-11"><span>LC 732 — My Calendar III</span></label>
+          <label class="roadmap-task" data-search="lc 759 — employee free time"><input type="checkbox" data-task-id="task-6-12"><span>LC 759 — Employee Free Time</span></label>
+          <label class="roadmap-task" data-search="lc 1353 — maximum number of events that can be attended"><input type="checkbox" data-task-id="task-6-13"><span>LC 1353 — Maximum Number of Events That Can Be Attended</span></label>
+          <label class="roadmap-task" data-search="lc 252 — meeting rooms"><input type="checkbox" data-task-id="task-6-14"><span>LC 252 — Meeting Rooms</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">8. String Algorithms</span>
+          <span class="category-meta"><span class="category-count">24 tasks</span><span class="category-progress">0/24</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 5 — longest palindromic substring"><input type="checkbox" data-task-id="task-7-0"><span>LC 5 — Longest Palindromic Substring</span></label>
+          <label class="roadmap-task" data-search="lc 49 — group anagrams"><input type="checkbox" data-task-id="task-7-1"><span>LC 49 — Group Anagrams</span></label>
+          <label class="roadmap-task" data-search="lc 242 — valid anagram"><input type="checkbox" data-task-id="task-7-2"><span>LC 242 — Valid Anagram</span></label>
+          <label class="roadmap-task" data-search="lc 28 — find the index of the first occurrence in a string"><input type="checkbox" data-task-id="task-7-3"><span>LC 28 — Find the Index of the First Occurrence in a String</span></label>
+          <label class="roadmap-task" data-search="lc 14 — longest common prefix"><input type="checkbox" data-task-id="task-7-4"><span>LC 14 — Longest Common Prefix</span></label>
+          <label class="roadmap-task" data-search="lc 131 — palindrome partitioning"><input type="checkbox" data-task-id="task-7-5"><span>LC 131 — Palindrome Partitioning</span></label>
+          <label class="roadmap-task" data-search="lc 214 — shortest palindrome"><input type="checkbox" data-task-id="task-7-6"><span>LC 214 — Shortest Palindrome</span></label>
+          <label class="roadmap-task" data-search="lc 647 — palindromic substrings"><input type="checkbox" data-task-id="task-7-7"><span>LC 647 — Palindromic Substrings</span></label>
+          <label class="roadmap-task" data-search="lc 1044 — longest duplicate substring"><input type="checkbox" data-task-id="task-7-8"><span>LC 1044 — Longest Duplicate Substring</span></label>
+          <label class="roadmap-task" data-search="lc 1062 — longest repeating substring"><input type="checkbox" data-task-id="task-7-9"><span>LC 1062 — Longest Repeating Substring</span></label>
+          <label class="roadmap-task" data-search="lc 1143 — longest common subsequence"><input type="checkbox" data-task-id="task-7-10"><span>LC 1143 — Longest Common Subsequence</span></label>
+          <label class="roadmap-task" data-search="lc 516 — longest palindromic subsequence"><input type="checkbox" data-task-id="task-7-11"><span>LC 516 — Longest Palindromic Subsequence</span></label>
+          <label class="roadmap-task" data-search="lc 72 — edit distance"><input type="checkbox" data-task-id="task-7-12"><span>LC 72 — Edit Distance</span></label>
+          <label class="roadmap-task" data-search="lc 44 — wildcard matching"><input type="checkbox" data-task-id="task-7-13"><span>LC 44 — Wildcard Matching</span></label>
+          <label class="roadmap-task" data-search="lc 10 — regular expression matching"><input type="checkbox" data-task-id="task-7-14"><span>LC 10 — Regular Expression Matching</span></label>
+          <label class="roadmap-task" data-search="lc 459 — repeated substring pattern"><input type="checkbox" data-task-id="task-7-15"><span>LC 459 — Repeated Substring Pattern</span></label>
+          <label class="roadmap-task" data-search="lc 796 — rotate string"><input type="checkbox" data-task-id="task-7-16"><span>LC 796 — Rotate String</span></label>
+          <label class="roadmap-task" data-search="lc 1392 — longest happy prefix"><input type="checkbox" data-task-id="task-7-17"><span>LC 1392 — Longest Happy Prefix</span></label>
+          <label class="roadmap-task" data-search="lc 1763 — longest nice substring"><input type="checkbox" data-task-id="task-7-18"><span>LC 1763 — Longest Nice Substring</span></label>
+          <label class="roadmap-task" data-search="lc 1092 — shortest common supersequence"><input type="checkbox" data-task-id="task-7-19"><span>LC 1092 — Shortest Common Supersequence</span></label>
+          <label class="roadmap-task" data-search="gfg — kmp algorithm"><input type="checkbox" data-task-id="task-7-20"><span>GFG — KMP Algorithm</span></label>
+          <label class="roadmap-task" data-search="gfg — rabin-karp algorithm"><input type="checkbox" data-task-id="task-7-21"><span>GFG — Rabin-Karp Algorithm</span></label>
+          <label class="roadmap-task" data-search="gfg — z algorithm"><input type="checkbox" data-task-id="task-7-22"><span>GFG — Z Algorithm</span></label>
+          <label class="roadmap-task" data-search="gfg — longest prefix suffix"><input type="checkbox" data-task-id="task-7-23"><span>GFG — Longest Prefix Suffix</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">9. Matrix Problems</span>
+          <span class="category-meta"><span class="category-count">15 tasks</span><span class="category-progress">0/15</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 48 — rotate image"><input type="checkbox" data-task-id="task-8-0"><span>LC 48 — Rotate Image</span></label>
+          <label class="roadmap-task" data-search="lc 54 — spiral matrix"><input type="checkbox" data-task-id="task-8-1"><span>LC 54 — Spiral Matrix</span></label>
+          <label class="roadmap-task" data-search="lc 73 — set matrix zeroes"><input type="checkbox" data-task-id="task-8-2"><span>LC 73 — Set Matrix Zeroes</span></label>
+          <label class="roadmap-task" data-search="lc 240 — search a 2d matrix ii"><input type="checkbox" data-task-id="task-8-3"><span>LC 240 — Search a 2D Matrix II</span></label>
+          <label class="roadmap-task" data-search="lc 221 — maximal square"><input type="checkbox" data-task-id="task-8-4"><span>LC 221 — Maximal Square</span></label>
+          <label class="roadmap-task" data-search="lc 74 — search a 2d matrix"><input type="checkbox" data-task-id="task-8-5"><span>LC 74 — Search a 2D Matrix</span></label>
+          <label class="roadmap-task" data-search="lc 329 — longest increasing path in a matrix"><input type="checkbox" data-task-id="task-8-6"><span>LC 329 — Longest Increasing Path in a Matrix</span></label>
+          <label class="roadmap-task" data-search="lc 378 — kth smallest element in a sorted matrix"><input type="checkbox" data-task-id="task-8-7"><span>LC 378 — Kth Smallest Element in a Sorted Matrix</span></label>
+          <label class="roadmap-task" data-search="lc 542 — 01 matrix"><input type="checkbox" data-task-id="task-8-8"><span>LC 542 — 01 Matrix</span></label>
+          <label class="roadmap-task" data-search="lc 85 — maximal rectangle"><input type="checkbox" data-task-id="task-8-9"><span>LC 85 — Maximal Rectangle</span></label>
+          <label class="roadmap-task" data-search="lc 289 — game of life"><input type="checkbox" data-task-id="task-8-10"><span>LC 289 — Game of Life</span></label>
+          <label class="roadmap-task" data-search="lc 59 — spiral matrix ii"><input type="checkbox" data-task-id="task-8-11"><span>LC 59 — Spiral Matrix II</span></label>
+          <label class="roadmap-task" data-search="lc 498 — diagonal traverse"><input type="checkbox" data-task-id="task-8-12"><span>LC 498 — Diagonal Traverse</span></label>
+          <label class="roadmap-task" data-search="lc 1329 — sort the matrix diagonally"><input type="checkbox" data-task-id="task-8-13"><span>LC 1329 — Sort the Matrix Diagonally</span></label>
+          <label class="roadmap-task" data-search="lc 1074 — number of submatrices that sum to target"><input type="checkbox" data-task-id="task-8-14"><span>LC 1074 — Number of Submatrices That Sum to Target</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="faang patterns" >
+        <summary>
+          <span class="category-title">10. Misc FAANG Patterns</span>
+          <span class="category-meta"><span class="category-count">30 tasks</span><span class="category-progress">0/30</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 169 — majority element"><input type="checkbox" data-task-id="task-9-0"><span>LC 169 — Majority Element</span></label>
+          <label class="roadmap-task" data-search="lc 229 — majority element ii"><input type="checkbox" data-task-id="task-9-1"><span>LC 229 — Majority Element II</span></label>
+          <label class="roadmap-task" data-search="lc 41 — first missing positive"><input type="checkbox" data-task-id="task-9-2"><span>LC 41 — First Missing Positive</span></label>
+          <label class="roadmap-task" data-search="lc 287 — find the duplicate number"><input type="checkbox" data-task-id="task-9-3"><span>LC 287 — Find the Duplicate Number</span></label>
+          <label class="roadmap-task" data-search="lc 189 — rotate array"><input type="checkbox" data-task-id="task-9-4"><span>LC 189 — Rotate Array</span></label>
+          <label class="roadmap-task" data-search="lc 238 — product of array except self"><input type="checkbox" data-task-id="task-9-5"><span>LC 238 — Product of Array Except Self</span></label>
+          <label class="roadmap-task" data-search="lc 31 — next permutation"><input type="checkbox" data-task-id="task-9-6"><span>LC 31 — Next Permutation</span></label>
+          <label class="roadmap-task" data-search="lc 128 — longest consecutive sequence"><input type="checkbox" data-task-id="task-9-7"><span>LC 128 — Longest Consecutive Sequence</span></label>
+          <label class="roadmap-task" data-search="lc 2875 — minimum size subarray in infinite array"><input type="checkbox" data-task-id="task-9-8"><span>LC 2875 — Minimum Size Subarray in Infinite Array</span></label>
+          <label class="roadmap-task" data-search="lc 137 — single number ii"><input type="checkbox" data-task-id="task-9-9"><span>LC 137 — Single Number II</span></label>
+          <label class="roadmap-task" data-search="lc 260 — single number iii"><input type="checkbox" data-task-id="task-9-10"><span>LC 260 — Single Number III</span></label>
+          <label class="roadmap-task" data-search="lc 136 — single number"><input type="checkbox" data-task-id="task-9-11"><span>LC 136 — Single Number</span></label>
+          <label class="roadmap-task" data-search="lc 268 — missing number"><input type="checkbox" data-task-id="task-9-12"><span>LC 268 — Missing Number</span></label>
+          <label class="roadmap-task" data-search="lc 645 — set mismatch"><input type="checkbox" data-task-id="task-9-13"><span>LC 645 — Set Mismatch</span></label>
+          <label class="roadmap-task" data-search="lc 442 — find all duplicates in an array"><input type="checkbox" data-task-id="task-9-14"><span>LC 442 — Find All Duplicates in an Array</span></label>
+          <label class="roadmap-task" data-search="lc 448 — find all numbers disappeared in an array"><input type="checkbox" data-task-id="task-9-15"><span>LC 448 — Find All Numbers Disappeared in an Array</span></label>
+          <label class="roadmap-task" data-search="lc 1375 — number of times binary string is prefix-aligned"><input type="checkbox" data-task-id="task-9-16"><span>LC 1375 — Number of Times Binary String Is Prefix-Aligned</span></label>
+          <label class="roadmap-task" data-search="lc 164 — maximum gap"><input type="checkbox" data-task-id="task-9-17"><span>LC 164 — Maximum Gap</span></label>
+          <label class="roadmap-task" data-search="lc 179 — largest number"><input type="checkbox" data-task-id="task-9-18"><span>LC 179 — Largest Number</span></label>
+          <label class="roadmap-task" data-search="lc 1346 — check if n and its double exist"><input type="checkbox" data-task-id="task-9-19"><span>LC 1346 — Check If N and Its Double Exist</span></label>
+          <label class="roadmap-task" data-search="lc 905 — sort array by parity"><input type="checkbox" data-task-id="task-9-20"><span>LC 905 — Sort Array By Parity</span></label>
+          <label class="roadmap-task" data-search="lc 922 — sort array by parity ii"><input type="checkbox" data-task-id="task-9-21"><span>LC 922 — Sort Array By Parity II</span></label>
+          <label class="roadmap-task" data-search="lc 485 — max consecutive ones"><input type="checkbox" data-task-id="task-9-22"><span>LC 485 — Max Consecutive Ones</span></label>
+          <label class="roadmap-task" data-search="lc 487 — max consecutive ones ii"><input type="checkbox" data-task-id="task-9-23"><span>LC 487 — Max Consecutive Ones II</span></label>
+          <label class="roadmap-task" data-search="lc 414 — third maximum number"><input type="checkbox" data-task-id="task-9-24"><span>LC 414 — Third Maximum Number</span></label>
+          <label class="roadmap-task" data-search="lc 747 — largest number at least twice of others"><input type="checkbox" data-task-id="task-9-25"><span>LC 747 — Largest Number At Least Twice of Others</span></label>
+          <label class="roadmap-task" data-search="lc 561 — array partition"><input type="checkbox" data-task-id="task-9-26"><span>LC 561 — Array Partition</span></label>
+          <label class="roadmap-task" data-search="lc 665 — non-decreasing array"><input type="checkbox" data-task-id="task-9-27"><span>LC 665 — Non-decreasing Array</span></label>
+          <label class="roadmap-task" data-search="lc 896 — monotonic array"><input type="checkbox" data-task-id="task-9-28"><span>LC 896 — Monotonic Array</span></label>
+          <label class="roadmap-task" data-search="lc 1752 — check if array is sorted and rotated"><input type="checkbox" data-task-id="task-9-29"><span>LC 1752 — Check if Array Is Sorted and Rotated</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="graphs" >
+        <summary>
+          <span class="category-title">1. BFS / DFS (Basics + Grid)</span>
+          <span class="category-meta"><span class="category-count">41 tasks</span><span class="category-progress">0/41</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 200 — number of islands"><input type="checkbox" data-task-id="task-10-0"><span>LC 200 — Number of Islands</span></label>
+          <label class="roadmap-task" data-search="gfg — number of islands"><input type="checkbox" data-task-id="task-10-1"><span>GFG — Number of Islands</span></label>
+          <label class="roadmap-task" data-search="lc 695 — max area of island"><input type="checkbox" data-task-id="task-10-2"><span>LC 695 — Max Area of Island</span></label>
+          <label class="roadmap-task" data-search="gfg — max area of island"><input type="checkbox" data-task-id="task-10-3"><span>GFG — Max Area of Island</span></label>
+          <label class="roadmap-task" data-search="lc 733 — flood fill"><input type="checkbox" data-task-id="task-10-4"><span>LC 733 — Flood Fill</span></label>
+          <label class="roadmap-task" data-search="gfg — flood fill algorithm"><input type="checkbox" data-task-id="task-10-5"><span>GFG — Flood Fill Algorithm</span></label>
+          <label class="roadmap-task" data-search="lc 994 — rotting oranges"><input type="checkbox" data-task-id="task-10-6"><span>LC 994 — Rotting Oranges</span></label>
+          <label class="roadmap-task" data-search="gfg — rotten oranges"><input type="checkbox" data-task-id="task-10-7"><span>GFG — Rotten Oranges</span></label>
+          <label class="roadmap-task" data-search="lc 130 — surrounded regions"><input type="checkbox" data-task-id="task-10-8"><span>LC 130 — Surrounded Regions</span></label>
+          <label class="roadmap-task" data-search="gfg — replace o's with x's"><input type="checkbox" data-task-id="task-10-9"><span>GFG — Replace O's with X's</span></label>
+          <label class="roadmap-task" data-search="lc 417 — pacific atlantic water flow"><input type="checkbox" data-task-id="task-10-10"><span>LC 417 — Pacific Atlantic Water Flow</span></label>
+          <label class="roadmap-task" data-search="gfg — water flow"><input type="checkbox" data-task-id="task-10-11"><span>GFG — Water Flow</span></label>
+          <label class="roadmap-task" data-search="lc 547 — number of provinces"><input type="checkbox" data-task-id="task-10-12"><span>LC 547 — Number of Provinces</span></label>
+          <label class="roadmap-task" data-search="gfg — number of provinces"><input type="checkbox" data-task-id="task-10-13"><span>GFG — Number of Provinces</span></label>
+          <label class="roadmap-task" data-search="lc 841 — keys and rooms"><input type="checkbox" data-task-id="task-10-14"><span>LC 841 — Keys and Rooms</span></label>
+          <label class="roadmap-task" data-search="gfg — dfs of graph"><input type="checkbox" data-task-id="task-10-15"><span>GFG — DFS of Graph</span></label>
+          <label class="roadmap-task" data-search="lc 1971 — find if path exists"><input type="checkbox" data-task-id="task-10-16"><span>LC 1971 — Find if Path Exists</span></label>
+          <label class="roadmap-task" data-search="gfg — find path in graph"><input type="checkbox" data-task-id="task-10-17"><span>GFG — Find Path in Graph</span></label>
+          <label class="roadmap-task" data-search="lc 785 — is graph bipartite"><input type="checkbox" data-task-id="task-10-18"><span>LC 785 — Is Graph Bipartite</span></label>
+          <label class="roadmap-task" data-search="gfg — bipartite graph"><input type="checkbox" data-task-id="task-10-19"><span>GFG — Bipartite Graph</span></label>
+          <label class="roadmap-task" data-search="lc 886 — possible bipartition"><input type="checkbox" data-task-id="task-10-20"><span>LC 886 — Possible Bipartition</span></label>
+          <label class="roadmap-task" data-search="gfg — check bipartite"><input type="checkbox" data-task-id="task-10-21"><span>GFG — Check Bipartite</span></label>
+          <label class="roadmap-task" data-search="lc 802 — eventual safe states"><input type="checkbox" data-task-id="task-10-22"><span>LC 802 — Eventual Safe States</span></label>
+          <label class="roadmap-task" data-search="gfg — safe states"><input type="checkbox" data-task-id="task-10-23"><span>GFG — Safe States</span></label>
+          <label class="roadmap-task" data-search="lc 207 — course schedule"><input type="checkbox" data-task-id="task-10-24"><span>LC 207 — Course Schedule</span></label>
+          <label class="roadmap-task" data-search="gfg — detect cycle in directed graph"><input type="checkbox" data-task-id="task-10-25"><span>GFG — Detect Cycle in Directed Graph</span></label>
+          <label class="roadmap-task" data-search="lc 210 — course schedule ii"><input type="checkbox" data-task-id="task-10-26"><span>LC 210 — Course Schedule II</span></label>
+          <label class="roadmap-task" data-search="gfg — topological sort"><input type="checkbox" data-task-id="task-10-27"><span>GFG — Topological Sort</span></label>
+          <label class="roadmap-task" data-search="lc 1971 — find if path exists in graph"><input type="checkbox" data-task-id="task-10-28"><span>LC 1971 — Find if Path Exists in Graph</span></label>
+          <label class="roadmap-task" data-search="lc 1091 — shortest path in binary matrix"><input type="checkbox" data-task-id="task-10-29"><span>LC 1091 — Shortest Path in Binary Matrix</span></label>
+          <label class="roadmap-task" data-search="gfg — shortest path in matrix"><input type="checkbox" data-task-id="task-10-30"><span>GFG — Shortest Path in Matrix</span></label>
+          <label class="roadmap-task" data-search="lc 286 — walls and gates"><input type="checkbox" data-task-id="task-10-31"><span>LC 286 — Walls and Gates</span></label>
+          <label class="roadmap-task" data-search="gfg — distance of nearest cell"><input type="checkbox" data-task-id="task-10-32"><span>GFG — Distance of Nearest Cell</span></label>
+          <label class="roadmap-task" data-search="lc 934 — shortest bridge"><input type="checkbox" data-task-id="task-10-33"><span>LC 934 — Shortest Bridge</span></label>
+          <label class="roadmap-task" data-search="gfg — shortest bridge"><input type="checkbox" data-task-id="task-10-34"><span>GFG — Shortest Bridge</span></label>
+          <label class="roadmap-task" data-search="lc 1319 — make network connected"><input type="checkbox" data-task-id="task-10-35"><span>LC 1319 — Make Network Connected</span></label>
+          <label class="roadmap-task" data-search="gfg — connecting the graph"><input type="checkbox" data-task-id="task-10-36"><span>GFG — Connecting the Graph</span></label>
+          <label class="roadmap-task" data-search="lc 1466 — reorder routes"><input type="checkbox" data-task-id="task-10-37"><span>LC 1466 — Reorder Routes</span></label>
+          <label class="roadmap-task" data-search="gfg — reorder routes"><input type="checkbox" data-task-id="task-10-38"><span>GFG — Reorder Routes</span></label>
+          <label class="roadmap-task" data-search="lc 1162 — as far from land as possible"><input type="checkbox" data-task-id="task-10-39"><span>LC 1162 — As Far from Land as Possible</span></label>
+          <label class="roadmap-task" data-search="gfg — distance of nearest cell"><input type="checkbox" data-task-id="task-10-40"><span>GFG — Distance of Nearest Cell</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="graphs" >
+        <summary>
+          <span class="category-title">2. Topological Sort / DAG</span>
+          <span class="category-meta"><span class="category-count">20 tasks</span><span class="category-progress">0/20</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 269 — alien dictionary"><input type="checkbox" data-task-id="task-11-0"><span>LC 269 — Alien Dictionary</span></label>
+          <label class="roadmap-task" data-search="gfg — alien dictionary"><input type="checkbox" data-task-id="task-11-1"><span>GFG — Alien Dictionary</span></label>
+          <label class="roadmap-task" data-search="lc 1136 — parallel courses"><input type="checkbox" data-task-id="task-11-2"><span>LC 1136 — Parallel Courses</span></label>
+          <label class="roadmap-task" data-search="gfg — minimum time to complete courses"><input type="checkbox" data-task-id="task-11-3"><span>GFG — Minimum Time to Complete Courses</span></label>
+          <label class="roadmap-task" data-search="lc 310 — minimum height trees"><input type="checkbox" data-task-id="task-11-4"><span>LC 310 — Minimum Height Trees</span></label>
+          <label class="roadmap-task" data-search="gfg — minimum height trees"><input type="checkbox" data-task-id="task-11-5"><span>GFG — Minimum Height Trees</span></label>
+          <label class="roadmap-task" data-search="lc 2050 — parallel courses iii"><input type="checkbox" data-task-id="task-11-6"><span>LC 2050 — Parallel Courses III</span></label>
+          <label class="roadmap-task" data-search="gfg — course schedule with time"><input type="checkbox" data-task-id="task-11-7"><span>GFG — Course Schedule with Time</span></label>
+          <label class="roadmap-task" data-search="lc 1857 — largest color value"><input type="checkbox" data-task-id="task-11-8"><span>LC 1857 — Largest Color Value</span></label>
+          <label class="roadmap-task" data-search="gfg — largest color value"><input type="checkbox" data-task-id="task-11-9"><span>GFG — Largest Color Value</span></label>
+          <label class="roadmap-task" data-search="lc 1203 — sort items by groups"><input type="checkbox" data-task-id="task-11-10"><span>LC 1203 — Sort Items by Groups</span></label>
+          <label class="roadmap-task" data-search="gfg — sort items by groups"><input type="checkbox" data-task-id="task-11-11"><span>GFG — Sort Items by Groups</span></label>
+          <label class="roadmap-task" data-search="lc 444 — sequence reconstruction"><input type="checkbox" data-task-id="task-11-12"><span>LC 444 — Sequence Reconstruction</span></label>
+          <label class="roadmap-task" data-search="gfg — sequence reconstruction"><input type="checkbox" data-task-id="task-11-13"><span>GFG — Sequence Reconstruction</span></label>
+          <label class="roadmap-task" data-search="lc 2115 — find all recipes"><input type="checkbox" data-task-id="task-11-14"><span>LC 2115 — Find All Recipes</span></label>
+          <label class="roadmap-task" data-search="gfg — recipe problem"><input type="checkbox" data-task-id="task-11-15"><span>GFG — Recipe Problem</span></label>
+          <label class="roadmap-task" data-search="lc 851 — loud and rich"><input type="checkbox" data-task-id="task-11-16"><span>LC 851 — Loud and Rich</span></label>
+          <label class="roadmap-task" data-search="gfg — loud and rich"><input type="checkbox" data-task-id="task-11-17"><span>GFG — Loud and Rich</span></label>
+          <label class="roadmap-task" data-search="lc 1462 — course schedule iv"><input type="checkbox" data-task-id="task-11-18"><span>LC 1462 — Course Schedule IV</span></label>
+          <label class="roadmap-task" data-search="gfg — prerequisite tasks"><input type="checkbox" data-task-id="task-11-19"><span>GFG — Prerequisite Tasks</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="graphs" >
+        <summary>
+          <span class="category-title">3. Shortest Path (Dijkstra / BFS / 0–1 BFS)</span>
+          <span class="category-meta"><span class="category-count">25 tasks</span><span class="category-progress">0/25</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 743 — network delay time"><input type="checkbox" data-task-id="task-12-0"><span>LC 743 — Network Delay Time</span></label>
+          <label class="roadmap-task" data-search="lc 787 — cheapest flights"><input type="checkbox" data-task-id="task-12-1"><span>LC 787 — Cheapest Flights</span></label>
+          <label class="roadmap-task" data-search="lc 1631 — path with minimum effort"><input type="checkbox" data-task-id="task-12-2"><span>LC 1631 — Path With Minimum Effort</span></label>
+          <label class="roadmap-task" data-search="lc 1584 — min cost to connect points"><input type="checkbox" data-task-id="task-12-3"><span>LC 1584 — Min Cost to Connect Points</span></label>
+          <label class="roadmap-task" data-search="lc 778 — swim in rising water"><input type="checkbox" data-task-id="task-12-4"><span>LC 778 — Swim in Rising Water</span></label>
+          <label class="roadmap-task" data-search="lc 1368 — minimum cost grid"><input type="checkbox" data-task-id="task-12-5"><span>LC 1368 — Minimum Cost Grid</span></label>
+          <label class="roadmap-task" data-search="lc 1928 — min cost to reach destination"><input type="checkbox" data-task-id="task-12-6"><span>LC 1928 — Min Cost to Reach Destination</span></label>
+          <label class="roadmap-task" data-search="lc 1514 — max probability path"><input type="checkbox" data-task-id="task-12-7"><span>LC 1514 — Max Probability Path</span></label>
+          <label class="roadmap-task" data-search="lc 1129 — shortest alternating paths"><input type="checkbox" data-task-id="task-12-8"><span>LC 1129 — Shortest Alternating Paths</span></label>
+          <label class="roadmap-task" data-search="lc 847 — shortest path visiting all nodes"><input type="checkbox" data-task-id="task-12-9"><span>LC 847 — Shortest Path Visiting All Nodes</span></label>
+          <label class="roadmap-task" data-search="lc 433 — minimum genetic mutation"><input type="checkbox" data-task-id="task-12-10"><span>LC 433 — Minimum Genetic Mutation</span></label>
+          <label class="roadmap-task" data-search="lc 127 — word ladder"><input type="checkbox" data-task-id="task-12-11"><span>LC 127 — Word Ladder</span></label>
+          <label class="roadmap-task" data-search="lc 126 — word ladder ii"><input type="checkbox" data-task-id="task-12-12"><span>LC 126 — Word Ladder II</span></label>
+          <label class="roadmap-task" data-search="lc 3123 — find edges in shortest paths"><input type="checkbox" data-task-id="task-12-13"><span>LC 3123 — Find Edges in Shortest Paths</span></label>
+          <label class="roadmap-task" data-search="lc 1786 — restricted paths"><input type="checkbox" data-task-id="task-12-14"><span>LC 1786 — Restricted Paths</span></label>
+          <label class="roadmap-task" data-search="lc 2045 — second minimum time"><input type="checkbox" data-task-id="task-12-15"><span>LC 2045 — Second Minimum Time</span></label>
+          <label class="roadmap-task" data-search="lc 1192 — critical connections"><input type="checkbox" data-task-id="task-12-16"><span>LC 1192 — Critical Connections</span></label>
+          <label class="roadmap-task" data-search="lc 1976 — number of ways to arrive"><input type="checkbox" data-task-id="task-12-17"><span>LC 1976 — Number of Ways to Arrive</span></label>
+          <label class="roadmap-task" data-search="lc 815 — bus routes"><input type="checkbox" data-task-id="task-12-18"><span>LC 815 — Bus Routes</span></label>
+          <label class="roadmap-task" data-search="lc 882 — reachable nodes"><input type="checkbox" data-task-id="task-12-19"><span>LC 882 — Reachable Nodes</span></label>
+          <label class="roadmap-task" data-search="lc 1293 — shortest path with obstacles"><input type="checkbox" data-task-id="task-12-20"><span>LC 1293 — Shortest Path with Obstacles</span></label>
+          <label class="roadmap-task" data-search="gfg — dijkstra"><input type="checkbox" data-task-id="task-12-21"><span>GFG — Dijkstra</span></label>
+          <label class="roadmap-task" data-search="gfg — bellman ford"><input type="checkbox" data-task-id="task-12-22"><span>GFG — Bellman Ford</span></label>
+          <label class="roadmap-task" data-search="gfg — floyd warshall"><input type="checkbox" data-task-id="task-12-23"><span>GFG — Floyd Warshall</span></label>
+          <label class="roadmap-task" data-search="gfg — shortest path in dag"><input type="checkbox" data-task-id="task-12-24"><span>GFG — Shortest Path in DAG</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="graphs" >
+        <summary>
+          <span class="category-title">4. Union Find / DSU</span>
+          <span class="category-meta"><span class="category-count">12 tasks</span><span class="category-progress">0/12</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 684 — redundant connection"><input type="checkbox" data-task-id="task-13-0"><span>LC 684 — Redundant Connection</span></label>
+          <label class="roadmap-task" data-search="lc 685 — redundant connection ii"><input type="checkbox" data-task-id="task-13-1"><span>LC 685 — Redundant Connection II</span></label>
+          <label class="roadmap-task" data-search="lc 839 — similar string groups"><input type="checkbox" data-task-id="task-13-2"><span>LC 839 — Similar String Groups</span></label>
+          <label class="roadmap-task" data-search="lc 721 — accounts merge"><input type="checkbox" data-task-id="task-13-3"><span>LC 721 — Accounts Merge</span></label>
+          <label class="roadmap-task" data-search="lc 1202 — smallest string with swaps"><input type="checkbox" data-task-id="task-13-4"><span>LC 1202 — Smallest String With Swaps</span></label>
+          <label class="roadmap-task" data-search="lc 1579 — remove max edges"><input type="checkbox" data-task-id="task-13-5"><span>LC 1579 — Remove Max Edges</span></label>
+          <label class="roadmap-task" data-search="lc 947 — remove stones"><input type="checkbox" data-task-id="task-13-6"><span>LC 947 — Remove Stones</span></label>
+          <label class="roadmap-task" data-search="lc 924 — minimize malware spread"><input type="checkbox" data-task-id="task-13-7"><span>LC 924 — Minimize Malware Spread</span></label>
+          <label class="roadmap-task" data-search="lc 928 — minimize malware spread ii"><input type="checkbox" data-task-id="task-13-8"><span>LC 928 — Minimize Malware Spread II</span></label>
+          <label class="roadmap-task" data-search="lc 952 — largest component by factor"><input type="checkbox" data-task-id="task-13-9"><span>LC 952 — Largest Component by Factor</span></label>
+          <label class="roadmap-task" data-search="gfg — redundant edge"><input type="checkbox" data-task-id="task-13-10"><span>GFG — Redundant Edge</span></label>
+          <label class="roadmap-task" data-search="gfg — dsu problems"><input type="checkbox" data-task-id="task-13-11"><span>GFG — DSU Problems</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="graphs" >
+        <summary>
+          <span class="category-title">5. Bridges / SCC / Tarjan</span>
+          <span class="category-meta"><span class="category-count">14 tasks</span><span class="category-progress">0/14</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 1192 — critical connections"><input type="checkbox" data-task-id="task-14-0"><span>LC 1192 — Critical Connections</span></label>
+          <label class="roadmap-task" data-search="lc 1489 — critical &amp; pseudo critical edges"><input type="checkbox" data-task-id="task-14-1"><span>LC 1489 — Critical &amp; Pseudo Critical Edges</span></label>
+          <label class="roadmap-task" data-search="lc 1568 — min days to disconnect island"><input type="checkbox" data-task-id="task-14-2"><span>LC 1568 — Min Days to Disconnect Island</span></label>
+          <label class="roadmap-task" data-search="lc 2360 — longest cycle"><input type="checkbox" data-task-id="task-14-3"><span>LC 2360 — Longest Cycle</span></label>
+          <label class="roadmap-task" data-search="lc 2192 — all ancestors in dag"><input type="checkbox" data-task-id="task-14-4"><span>LC 2192 — All Ancestors in DAG</span></label>
+          <label class="roadmap-task" data-search="lc 2101 — detonate bombs"><input type="checkbox" data-task-id="task-14-5"><span>LC 2101 — Detonate Bombs</span></label>
+          <label class="roadmap-task" data-search="lc 1376 — time needed to inform"><input type="checkbox" data-task-id="task-14-6"><span>LC 1376 — Time Needed to Inform</span></label>
+          <label class="roadmap-task" data-search="lc 2322 — minimum score after removals"><input type="checkbox" data-task-id="task-14-7"><span>LC 2322 — Minimum Score After Removals</span></label>
+          <label class="roadmap-task" data-search="lc 2608 — shortest cycle"><input type="checkbox" data-task-id="task-14-8"><span>LC 2608 — Shortest Cycle</span></label>
+          <label class="roadmap-task" data-search="lc 2508 — add edges to make degrees even"><input type="checkbox" data-task-id="task-14-9"><span>LC 2508 — Add Edges to Make Degrees Even</span></label>
+          <label class="roadmap-task" data-search="gfg — articulation point"><input type="checkbox" data-task-id="task-14-10"><span>GFG — Articulation Point</span></label>
+          <label class="roadmap-task" data-search="gfg — bridges in graph"><input type="checkbox" data-task-id="task-14-11"><span>GFG — Bridges in Graph</span></label>
+          <label class="roadmap-task" data-search="gfg — kosaraju"><input type="checkbox" data-task-id="task-14-12"><span>GFG — Kosaraju</span></label>
+          <label class="roadmap-task" data-search="gfg — mother vertex"><input type="checkbox" data-task-id="task-14-13"><span>GFG — Mother Vertex</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="graphs" >
+        <summary>
+          <span class="category-title">6. Advanced / Mixed / Hard</span>
+          <span class="category-meta"><span class="category-count">19 tasks</span><span class="category-progress">0/19</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 332 — reconstruct itinerary"><input type="checkbox" data-task-id="task-15-0"><span>LC 332 — Reconstruct Itinerary</span></label>
+          <label class="roadmap-task" data-search="lc 2097 — valid arrangement of pairs"><input type="checkbox" data-task-id="task-15-1"><span>LC 2097 — Valid Arrangement of Pairs</span></label>
+          <label class="roadmap-task" data-search="lc 2699 — modify graph edge weights"><input type="checkbox" data-task-id="task-15-2"><span>LC 2699 — Modify Graph Edge Weights</span></label>
+          <label class="roadmap-task" data-search="lc 2246 — longest path different adjacent"><input type="checkbox" data-task-id="task-15-3"><span>LC 2246 — Longest Path Different Adjacent</span></label>
+          <label class="roadmap-task" data-search="lc 834 — sum of distances in tree"><input type="checkbox" data-task-id="task-15-4"><span>LC 834 — Sum of Distances in Tree</span></label>
+          <label class="roadmap-task" data-search="lc 1615 — maximal network rank"><input type="checkbox" data-task-id="task-15-5"><span>LC 1615 — Maximal Network Rank</span></label>
+          <label class="roadmap-task" data-search="lc 1245 — tree diameter"><input type="checkbox" data-task-id="task-15-6"><span>LC 1245 — Tree Diameter</span></label>
+          <label class="roadmap-task" data-search="lc 1519 — subtree label count"><input type="checkbox" data-task-id="task-15-7"><span>LC 1519 — Subtree Label Count</span></label>
+          <label class="roadmap-task" data-search="lc 1483 — kth ancestor"><input type="checkbox" data-task-id="task-15-8"><span>LC 1483 — Kth Ancestor</span></label>
+          <label class="roadmap-task" data-search="lc 1766 — tree of coprimes"><input type="checkbox" data-task-id="task-15-9"><span>LC 1766 — Tree of Coprimes</span></label>
+          <label class="roadmap-task" data-search="lc 2242 — maximum score of a node sequence"><input type="checkbox" data-task-id="task-15-10"><span>LC 2242 — Maximum Score of a Node Sequence</span></label>
+          <label class="roadmap-task" data-search="lc 1782 — count pairs"><input type="checkbox" data-task-id="task-15-11"><span>LC 1782 — Count Pairs</span></label>
+          <label class="roadmap-task" data-search="lc 1761 — minimum degree of a connected trio in a graph"><input type="checkbox" data-task-id="task-15-12"><span>LC 1761 — Minimum Degree of a Connected Trio in a Graph</span></label>
+          <label class="roadmap-task" data-search="lc 882 — reachable nodes"><input type="checkbox" data-task-id="task-15-13"><span>LC 882 — Reachable Nodes</span></label>
+          <label class="roadmap-task" data-search="lc 1210 — minimum moves to reach target with rotations"><input type="checkbox" data-task-id="task-15-14"><span>LC 1210 — Minimum Moves to Reach Target with Rotations</span></label>
+          <label class="roadmap-task" data-search="mst problems"><input type="checkbox" data-task-id="task-15-15"><span>MST Problems</span></label>
+          <label class="roadmap-task" data-search="gfg — max flow (edmonds–karp)"><input type="checkbox" data-task-id="task-15-16"><span>GFG — Max Flow (Edmonds–Karp)</span></label>
+          <label class="roadmap-task" data-search="gfg — dinic"><input type="checkbox" data-task-id="task-15-17"><span>GFG — Dinic</span></label>
+          <label class="roadmap-task" data-search="gfg — hierholzer / euler path"><input type="checkbox" data-task-id="task-15-18"><span>GFG — Hierholzer / Euler Path</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="dynamic programming" >
+        <summary>
+          <span class="category-title">1. 1D DP</span>
+          <span class="category-meta"><span class="category-count">20 tasks</span><span class="category-progress">0/20</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 70 — climbing stairs"><input type="checkbox" data-task-id="task-16-0"><span>LC 70 — Climbing Stairs</span></label>
+          <label class="roadmap-task" data-search="lc 198 — house robber"><input type="checkbox" data-task-id="task-16-1"><span>LC 198 — House Robber</span></label>
+          <label class="roadmap-task" data-search="lc 213 — house robber ii"><input type="checkbox" data-task-id="task-16-2"><span>LC 213 — House Robber II</span></label>
+          <label class="roadmap-task" data-search="lc 746 — min cost climbing stairs"><input type="checkbox" data-task-id="task-16-3"><span>LC 746 — Min Cost Climbing Stairs</span></label>
+          <label class="roadmap-task" data-search="lc 322 — coin change"><input type="checkbox" data-task-id="task-16-4"><span>LC 322 — Coin Change</span></label>
+          <label class="roadmap-task" data-search="lc 518 — coin change ii"><input type="checkbox" data-task-id="task-16-5"><span>LC 518 — Coin Change II</span></label>
+          <label class="roadmap-task" data-search="lc 279 — perfect squares"><input type="checkbox" data-task-id="task-16-6"><span>LC 279 — Perfect Squares</span></label>
+          <label class="roadmap-task" data-search="lc 91 — decode ways"><input type="checkbox" data-task-id="task-16-7"><span>LC 91 — Decode Ways</span></label>
+          <label class="roadmap-task" data-search="lc 416 — partition equal subset sum"><input type="checkbox" data-task-id="task-16-8"><span>LC 416 — Partition Equal Subset Sum</span></label>
+          <label class="roadmap-task" data-search="lc 343 — integer break"><input type="checkbox" data-task-id="task-16-9"><span>LC 343 — Integer Break</span></label>
+          <label class="roadmap-task" data-search="lc 55 — jump game"><input type="checkbox" data-task-id="task-16-10"><span>LC 55 — Jump Game</span></label>
+          <label class="roadmap-task" data-search="lc 45 — jump game ii"><input type="checkbox" data-task-id="task-16-11"><span>LC 45 — Jump Game II</span></label>
+          <label class="roadmap-task" data-search="lc 152 — maximum product subarray"><input type="checkbox" data-task-id="task-16-12"><span>LC 152 — Maximum Product Subarray</span></label>
+          <label class="roadmap-task" data-search="lc 300 — longest increasing subsequence"><input type="checkbox" data-task-id="task-16-13"><span>LC 300 — Longest Increasing Subsequence</span></label>
+          <label class="roadmap-task" data-search="lc 376 — wiggle subsequence"><input type="checkbox" data-task-id="task-16-14"><span>LC 376 — Wiggle Subsequence</span></label>
+          <label class="roadmap-task" data-search="lc 413 — arithmetic slices"><input type="checkbox" data-task-id="task-16-15"><span>LC 413 — Arithmetic Slices</span></label>
+          <label class="roadmap-task" data-search="lc 377 — combination sum iv"><input type="checkbox" data-task-id="task-16-16"><span>LC 377 — Combination Sum IV</span></label>
+          <label class="roadmap-task" data-search="lc 673 — number of lis"><input type="checkbox" data-task-id="task-16-17"><span>LC 673 — Number of LIS</span></label>
+          <label class="roadmap-task" data-search="lc 646 — maximum length of pair chain"><input type="checkbox" data-task-id="task-16-18"><span>LC 646 — Maximum Length of Pair Chain</span></label>
+          <label class="roadmap-task" data-search="lc 139 — word break"><input type="checkbox" data-task-id="task-16-19"><span>LC 139 — Word Break</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="dynamic programming" >
+        <summary>
+          <span class="category-title">2. 2D DP</span>
+          <span class="category-meta"><span class="category-count">21 tasks</span><span class="category-progress">0/21</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 62 — unique paths"><input type="checkbox" data-task-id="task-17-0"><span>LC 62 — Unique Paths</span></label>
+          <label class="roadmap-task" data-search="lc 63 — unique paths ii"><input type="checkbox" data-task-id="task-17-1"><span>LC 63 — Unique Paths II</span></label>
+          <label class="roadmap-task" data-search="lc 64 — minimum path sum"><input type="checkbox" data-task-id="task-17-2"><span>LC 64 — Minimum Path Sum</span></label>
+          <label class="roadmap-task" data-search="lc 120 — triangle"><input type="checkbox" data-task-id="task-17-3"><span>LC 120 — Triangle</span></label>
+          <label class="roadmap-task" data-search="lc 174 — dungeon game"><input type="checkbox" data-task-id="task-17-4"><span>LC 174 — Dungeon Game</span></label>
+          <label class="roadmap-task" data-search="lc 221 — maximal square"><input type="checkbox" data-task-id="task-17-5"><span>LC 221 — Maximal Square</span></label>
+          <label class="roadmap-task" data-search="lc 85 — maximal rectangle"><input type="checkbox" data-task-id="task-17-6"><span>LC 85 — Maximal Rectangle</span></label>
+          <label class="roadmap-task" data-search="lc 1143 — longest common subsequence"><input type="checkbox" data-task-id="task-17-7"><span>LC 1143 — Longest Common Subsequence</span></label>
+          <label class="roadmap-task" data-search="lc 72 — edit distance"><input type="checkbox" data-task-id="task-17-8"><span>LC 72 — Edit Distance</span></label>
+          <label class="roadmap-task" data-search="lc 115 — distinct subsequences"><input type="checkbox" data-task-id="task-17-9"><span>LC 115 — Distinct Subsequences</span></label>
+          <label class="roadmap-task" data-search="lc 97 — interleaving string"><input type="checkbox" data-task-id="task-17-10"><span>LC 97 — Interleaving String</span></label>
+          <label class="roadmap-task" data-search="lc 647 — palindromic substrings"><input type="checkbox" data-task-id="task-17-11"><span>LC 647 — Palindromic Substrings</span></label>
+          <label class="roadmap-task" data-search="lc 131 — palindrome partitioning"><input type="checkbox" data-task-id="task-17-12"><span>LC 131 — Palindrome Partitioning</span></label>
+          <label class="roadmap-task" data-search="lc 132 — palindrome partitioning ii"><input type="checkbox" data-task-id="task-17-13"><span>LC 132 — Palindrome Partitioning II</span></label>
+          <label class="roadmap-task" data-search="lc 44 — wildcard matching"><input type="checkbox" data-task-id="task-17-14"><span>LC 44 — Wildcard Matching</span></label>
+          <label class="roadmap-task" data-search="lc 10 — regular expression matching"><input type="checkbox" data-task-id="task-17-15"><span>LC 10 — Regular Expression Matching</span></label>
+          <label class="roadmap-task" data-search="lc 1035 — uncrossed lines"><input type="checkbox" data-task-id="task-17-16"><span>LC 1035 — Uncrossed Lines</span></label>
+          <label class="roadmap-task" data-search="lc 309 — best time to buy and sell stock with cooldown"><input type="checkbox" data-task-id="task-17-17"><span>LC 309 — Best Time to Buy and Sell Stock with Cooldown</span></label>
+          <label class="roadmap-task" data-search="lc 714 — best time to buy and sell stock with transaction fee"><input type="checkbox" data-task-id="task-17-18"><span>LC 714 — Best Time to Buy and Sell Stock with Transaction Fee</span></label>
+          <label class="roadmap-task" data-search="lc 123 — best time to buy and sell stock iii"><input type="checkbox" data-task-id="task-17-19"><span>LC 123 — Best Time to Buy and Sell Stock III</span></label>
+          <label class="roadmap-task" data-search="lc 516 — longest palindromic subsequence"><input type="checkbox" data-task-id="task-17-20"><span>LC 516 — Longest Palindromic Subsequence</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="dynamic programming" >
+        <summary>
+          <span class="category-title">3. Knapsack / Subset</span>
+          <span class="category-meta"><span class="category-count">13 tasks</span><span class="category-progress">0/13</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 494 — target sum"><input type="checkbox" data-task-id="task-18-0"><span>LC 494 — Target Sum</span></label>
+          <label class="roadmap-task" data-search="lc 474 — ones and zeroes"><input type="checkbox" data-task-id="task-18-1"><span>LC 474 — Ones and Zeroes</span></label>
+          <label class="roadmap-task" data-search="lc 416 — partition equal subset sum"><input type="checkbox" data-task-id="task-18-2"><span>LC 416 — Partition Equal Subset Sum</span></label>
+          <label class="roadmap-task" data-search="lc 1049 — last stone weight ii"><input type="checkbox" data-task-id="task-18-3"><span>LC 1049 — Last Stone Weight II</span></label>
+          <label class="roadmap-task" data-search="lc 1416 — restore the array"><input type="checkbox" data-task-id="task-18-4"><span>LC 1416 — Restore The Array</span></label>
+          <label class="roadmap-task" data-search="lc 879 — profitable schemes"><input type="checkbox" data-task-id="task-18-5"><span>LC 879 — Profitable Schemes</span></label>
+          <label class="roadmap-task" data-search="lc 518 — coin change ii"><input type="checkbox" data-task-id="task-18-6"><span>LC 518 — Coin Change II</span></label>
+          <label class="roadmap-task" data-search="lc 322 — coin change"><input type="checkbox" data-task-id="task-18-7"><span>LC 322 — Coin Change</span></label>
+          <label class="roadmap-task" data-search="lc 312 — burst balloons"><input type="checkbox" data-task-id="task-18-8"><span>LC 312 — Burst Balloons</span></label>
+          <label class="roadmap-task" data-search="lc 887 — super egg drop"><input type="checkbox" data-task-id="task-18-9"><span>LC 887 — Super Egg Drop</span></label>
+          <label class="roadmap-task" data-search="lc 1155 — number of dice rolls with target sum"><input type="checkbox" data-task-id="task-18-10"><span>LC 1155 — Number of Dice Rolls With Target Sum</span></label>
+          <label class="roadmap-task" data-search="gfg — 0/1 knapsack"><input type="checkbox" data-task-id="task-18-11"><span>GFG — 0/1 Knapsack</span></label>
+          <label class="roadmap-task" data-search="gfg — rod cutting"><input type="checkbox" data-task-id="task-18-12"><span>GFG — Rod Cutting</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="dynamic programming" >
+        <summary>
+          <span class="category-title">4. Tree DP</span>
+          <span class="category-meta"><span class="category-count">6 tasks</span><span class="category-progress">0/6</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 337 — house robber iii"><input type="checkbox" data-task-id="task-19-0"><span>LC 337 — House Robber III</span></label>
+          <label class="roadmap-task" data-search="lc 124 — binary tree maximum path sum"><input type="checkbox" data-task-id="task-19-1"><span>LC 124 — Binary Tree Maximum Path Sum</span></label>
+          <label class="roadmap-task" data-search="lc 968 — binary tree cameras"><input type="checkbox" data-task-id="task-19-2"><span>LC 968 — Binary Tree Cameras</span></label>
+          <label class="roadmap-task" data-search="lc 979 — distribute coins in binary tree"><input type="checkbox" data-task-id="task-19-3"><span>LC 979 — Distribute Coins in Binary Tree</span></label>
+          <label class="roadmap-task" data-search="lc 1028 — recover a tree from preorder traversal"><input type="checkbox" data-task-id="task-19-4"><span>LC 1028 — Recover a Tree From Preorder Traversal</span></label>
+          <label class="roadmap-task" data-search="lc 834 — sum of distances in tree"><input type="checkbox" data-task-id="task-19-5"><span>LC 834 — Sum of Distances in Tree</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="dynamic programming" >
+        <summary>
+          <span class="category-title">5. Bitmask DP</span>
+          <span class="category-meta"><span class="category-count">4 tasks</span><span class="category-progress">0/4</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 847 — shortest path visiting all nodes"><input type="checkbox" data-task-id="task-20-0"><span>LC 847 — Shortest Path Visiting All Nodes</span></label>
+          <label class="roadmap-task" data-search="lc 464 — can i win"><input type="checkbox" data-task-id="task-20-1"><span>LC 464 — Can I Win</span></label>
+          <label class="roadmap-task" data-search="lc 1125 — smallest sufficient team"><input type="checkbox" data-task-id="task-20-2"><span>LC 1125 — Smallest Sufficient Team</span></label>
+          <label class="roadmap-task" data-search="lc 1349 — maximum students taking exam"><input type="checkbox" data-task-id="task-20-3"><span>LC 1349 — Maximum Students Taking Exam</span></label>
+        </div>
+      </details>
+
+      <details class="roadmap-category" data-group="dynamic programming" >
+        <summary>
+          <span class="category-title">6. Hard DP</span>
+          <span class="category-meta"><span class="category-count">24 tasks</span><span class="category-progress">0/24</span></span>
+        </summary>
+        <div class="roadmap-list">
+          <label class="roadmap-task" data-search="lc 1000 — minimum cost to merge stones"><input type="checkbox" data-task-id="task-21-0"><span>LC 1000 — Minimum Cost to Merge Stones</span></label>
+          <label class="roadmap-task" data-search="lc 546 — remove boxes"><input type="checkbox" data-task-id="task-21-1"><span>LC 546 — Remove Boxes</span></label>
+          <label class="roadmap-task" data-search="lc 664 — strange printer"><input type="checkbox" data-task-id="task-21-2"><span>LC 664 — Strange Printer</span></label>
+          <label class="roadmap-task" data-search="lc 1547 — minimum cost to cut a stick"><input type="checkbox" data-task-id="task-21-3"><span>LC 1547 — Minimum Cost to Cut a Stick</span></label>
+          <label class="roadmap-task" data-search="lc 375 — guess number higher or lower ii"><input type="checkbox" data-task-id="task-21-4"><span>LC 375 — Guess Number Higher or Lower II</span></label>
+          <label class="roadmap-task" data-search="lc 410 — split array largest sum"><input type="checkbox" data-task-id="task-21-5"><span>LC 410 — Split Array Largest Sum</span></label>
+          <label class="roadmap-task" data-search="lc 813 — largest sum of averages"><input type="checkbox" data-task-id="task-21-6"><span>LC 813 — Largest Sum of Averages</span></label>
+          <label class="roadmap-task" data-search="lc 140 — word break ii"><input type="checkbox" data-task-id="task-21-7"><span>LC 140 — Word Break II</span></label>
+          <label class="roadmap-task" data-search="lc 730 — count different palindromic subsequences"><input type="checkbox" data-task-id="task-21-8"><span>LC 730 — Count Different Palindromic Subsequences</span></label>
+          <label class="roadmap-task" data-search="lc 2484 — count palindromic subsequences"><input type="checkbox" data-task-id="task-21-9"><span>LC 2484 — Count Palindromic Subsequences</span></label>
+          <label class="roadmap-task" data-search="lc 1690 — stone game vii"><input type="checkbox" data-task-id="task-21-10"><span>LC 1690 — Stone Game VII</span></label>
+          <label class="roadmap-task" data-search="lc 188 — best time to buy and sell stock iv"><input type="checkbox" data-task-id="task-21-11"><span>LC 188 — Best Time to Buy and Sell Stock IV</span></label>
+          <label class="roadmap-task" data-search="lc 44 — wildcard matching"><input type="checkbox" data-task-id="task-21-12"><span>LC 44 — Wildcard Matching</span></label>
+          <label class="roadmap-task" data-search="lc 10 — regular expression matching"><input type="checkbox" data-task-id="task-21-13"><span>LC 10 — Regular Expression Matching</span></label>
+          <label class="roadmap-task" data-search="lc 514 — freedom trail"><input type="checkbox" data-task-id="task-21-14"><span>LC 514 — Freedom Trail</span></label>
+          <label class="roadmap-task" data-search="lc 940 — distinct subsequences ii"><input type="checkbox" data-task-id="task-21-15"><span>LC 940 — Distinct Subsequences II</span></label>
+          <label class="roadmap-task" data-search="lc 1218 — longest arithmetic subsequence of given difference"><input type="checkbox" data-task-id="task-21-16"><span>LC 1218 — Longest Arithmetic Subsequence of Given Difference</span></label>
+          <label class="roadmap-task" data-search="lc 3504 — longest palindrome after substring concatenation ii"><input type="checkbox" data-task-id="task-21-17"><span>LC 3504 — Longest Palindrome After Substring Concatenation II</span></label>
+          <label class="roadmap-task" data-search="lc 2209 — minimum white tiles after covering with carpets"><input type="checkbox" data-task-id="task-21-18"><span>LC 2209 — Minimum White Tiles After Covering With Carpets</span></label>
+          <label class="roadmap-task" data-search="lc 3840 — house robber v"><input type="checkbox" data-task-id="task-21-19"><span>LC 3840 — House Robber V</span></label>
+          <label class="roadmap-task" data-search="lc 3579 — minimum steps to convert string with operations"><input type="checkbox" data-task-id="task-21-20"><span>LC 3579 — Minimum Steps to Convert String with Operations</span></label>
+          <label class="roadmap-task" data-search="lc 629 — k inverse pairs array"><input type="checkbox" data-task-id="task-21-21"><span>LC 629 — K Inverse Pairs Array</span></label>
+          <label class="roadmap-task" data-search="lc 903 — valid permutations for di sequence"><input type="checkbox" data-task-id="task-21-22"><span>LC 903 — Valid Permutations for DI Sequence</span></label>
+          <label class="roadmap-task" data-search="lc 920 — number of music playlists"><input type="checkbox" data-task-id="task-21-23"><span>LC 920 — Number of Music Playlists</span></label>
+        </div>
+      </details>
+    </section>
+    <p class="roadmap-footnote">This is a living checklist, not a claim that every listed problem has been solved. Some problem types intentionally appear in more than one pattern because they teach multiple techniques.</p>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-inner"><a class="brand footer-brand" href="index.html"><span class="brand-mark">UP<span>.</span></span><span class="brand-name">Ujjwal Painuly</span></a><p>Practice deliberately. Review consistently.</p><a href="#roadmap-main" class="back-top">Back to top ↑</a><p class="copyright">© <span id="year">2026</span> Ujjwal Painuly</p></div></footer>
+</body>
+</html>

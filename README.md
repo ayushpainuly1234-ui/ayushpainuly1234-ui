@@ -7,6 +7,11 @@ I'm focused on **software development, problem-solving, and data structures and 
 -  **Building with:** JavaScript, Node.js, Express, HTML, CSS, MongoDB, and PostgreSQL
 -  **Goal:** Become a stronger software engineer by building, testing, and explaining practical projects
 
+## Portfolio & DSA roadmap
+
+- **[Portfolio website source](https://github.com/ayushpainuly1234-ui/ayushpainuly1234-ui/tree/main/portfolio)** — personal developer site and selected projects.
+- **[DSA interview roadmap](https://github.com/ayushpainuly1234-ui/ayushpainuly1234-ui/blob/main/portfolio/roadmap.html)** — a searchable checklist covering FAANG patterns, graphs, and dynamic programming. Checklist progress is saved locally in the browser.
+
 ## Featured projects
 
 ### [CivicFix — Civic Issue Reporting & Repair Planner](https://github.com/ayushpainuly1234-ui/civicfix)

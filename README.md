@@ -1,14 +1,15 @@
 # Ujjwal Painuly
 
-**Software Developer | Java · Data Structures & Algorithms · Backend & Full-Stack Engineering**
+**Software Developer | Java, Data Structures & Algorithms | Backend Engineering**
 
-I build backend APIs, full-stack applications, and algorithm-driven solutions with an emphasis on correctness, maintainability, and practical testing. My work combines Java problem-solving with hands-on application development using Node.js, Express, PostgreSQL, and MongoDB.
+I develop practical software projects and strengthen my problem-solving skills through consistent algorithmic practice. My approach emphasizes understanding the underlying logic, proving correctness, analysing time and space complexity, handling edge cases, and writing code that can be tested and maintained.
 
-- **Problem solving:** 700+ problems solved across LeetCode and independent practice.
-- **Algorithms:** Graph traversal, shortest paths, Union-Find/DSU, Dynamic Programming, Backtracking, Trees, Recursion, and complexity analysis.
-- **Backend:** Node.js, Express, REST API design, authentication, validation, and integration testing.
-- **Data:** PostgreSQL relational modelling and MongoDB document-based storage.
-- **Engineering workflow:** Git, GitHub Actions, technical documentation, automated checks, and deployment.
+- **Primary language:** Java for data structures, algorithms, and problem-solving.
+- **Problem-solving practice:** 700+ problems solved across LeetCode, VS Code, and independent practice.
+ **Advanced DSA:** Graph Algorithms (BFS/DFS, Shortest Paths, Union-Find/Disjoint Set Union), Dynamic Programming, Backtracking, Trees, and Recursion.
+- **Backend development:** Node.js, Express, REST APIs, authentication, and API integration testing.
+- **Databases:** PostgreSQL and MongoDB, including relational and document-based data modelling.
+- **Engineering workflow:** Git, GitHub, automated checks, technical documentation, and deployment fundamentals.
 
 ## Featured Projects
 
@@ -16,11 +17,11 @@ I build backend APIs, full-stack applications, and algorithm-driven solutions wi
 
 **Node.js · Express · PostgreSQL · MongoDB · JavaScript**
 
-A full-stack application for reporting civic infrastructure issues and planning repair work within budget and crew-hour constraints.
+A full-stack portfolio application for reporting civic infrastructure issues and planning repair work within budget and crew-hour constraints.
 
 - Backend APIs for citizen reports, account access, administrative workflows, and repair planning.
 - PostgreSQL for relational data and planning history; MongoDB for flexible issue reports.
-- Planning algorithms include Dijkstra shortest paths, 0/1 Knapsack Dynamic Programming, and Held–Karp bitmask DP for route ordering on small stop sets.
+- Algorithmic planning using Dijkstra shortest paths, 0/1 Knapsack Dynamic Programming, and Held–Karp bitmask DP for route ordering on small stop sets.
 - Integration tests and GitHub Actions workflow for repeatable checks.
 
 [Live Demo](https://civicfix-7q99.onrender.com) · [Source Code](https://github.com/ayushpainuly1234-ui/civicfix)
@@ -37,7 +38,7 @@ A topic-organised repository for implementing and practising core and advanced d
 - Dynamic programming practice organised around problem-solving patterns.
 - Backtracking, recursion, tree traversals, and binary search tree operations.
 
-[Source Code](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
+[Repository](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
 
 ### EchoTune — Web Music Player
 
@@ -56,21 +57,20 @@ A responsive browser-based music player featuring playlist controls, track searc
 | Backend | Node.js, Express, REST APIs, Authentication |
 | Databases | PostgreSQL, MongoDB |
 | Web Development | HTML, CSS, JavaScript |
-| Tools & Practices | Git, GitHub Actions, API Integration Testing, Technical Documentation |
+| Tools & Practices | VS Code, Git, GitHub Actions, API Integration Testing, Technical Documentation |
 
-## Engineering Priorities
+## Current Focus
 
-- Design and implement APIs with clear validation, data modelling, and error handling.
-- Explain algorithmic choices through correctness, edge cases, and time/space complexity.
-- Test application behaviour and document setup, limitations, and deployment clearly.
+- Improve independent problem-solving on unfamiliar DSA problems and clearly explain correctness, edge cases, and complexity.
+- Deepen Java and backend engineering fundamentals, database design, API validation, and automated testing.
+- Build, deploy, and document reliable projects with clear setup instructions and verifiable behaviour.
 
-## Links
+## Profiles
 
 - [GitHub](https://github.com/ayushpainuly1234-ui)
 - [Portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)
-- [DSA Roadmap](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/roadmap.html)
 - [LeetCode](https://leetcode.com/u/WqmLOG8Fcr/)
 
 ---
 
-*Build deliberately. Validate thoroughly. Understand the trade-offs.*
+*Understand the problem. Design the solution. Test the edge cases.*

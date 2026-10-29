@@ -6,7 +6,7 @@ I develop practical software projects and strengthen my problem-solving skills t
 
 - **Primary language:** Java for data structures, algorithms, and problem-solving.
 - **Problem-solving practice:** 700+ problems solved across LeetCode, VS Code, and independent practice.
-- **Advanced DSA:** Graph algorithms (BFS/DFS, shortest paths, Union-Find/Disjoint Set Union), Dynamic Programming, Backtracking, Trees, and Recursion.
+ **Advanced DSA:** Graph Algorithms (BFS/DFS, Shortest Paths, Union-Find/Disjoint Set Union), Dynamic Programming, Backtracking, Trees, and Recursion.
 - **Backend development:** Node.js, Express, REST APIs, authentication, and API integration testing.
 - **Databases:** PostgreSQL and MongoDB, including relational and document-based data modelling.
 - **Engineering workflow:** Git, GitHub, automated checks, technical documentation, and deployment fundamentals.

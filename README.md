@@ -6,7 +6,7 @@ I develop practical software projects and strengthen my problem-solving skills t
 
 - **Primary language:** Java for data structures, algorithms, and problem-solving.
 - **Problem-solving practice:** 700+ problems solved across LeetCode, VS Code, and independent practice.
-- **Advanced DSA:** Graph algorithms, Dynamic Programming, Backtracking, Trees, Recursion, and shortest-path techniques.
+- **Advanced DSA:** Graph algorithms (BFS/DFS, shortest paths, Union-Find/Disjoint Set Union), Dynamic Programming, Backtracking, Trees, and Recursion.
 - **Backend development:** Node.js, Express, REST APIs, authentication, and API integration testing.
 - **Databases:** PostgreSQL and MongoDB, including relational and document-based data modelling.
 - **Engineering workflow:** Git, GitHub, automated checks, technical documentation, and deployment fundamentals.
@@ -53,7 +53,7 @@ A responsive browser-based music player featuring playlist controls, track searc
 | Category | Skills |
 |---|---|
 | Programming | Java, JavaScript |
-| Data Structures & Algorithms | Graphs, Dynamic Programming, Backtracking, Trees, Recursion, Complexity Analysis |
+| Data Structures & Algorithms | Graphs (BFS/DFS, shortest paths, Union-Find/DSU), Dynamic Programming, Backtracking, Trees, Recursion, Complexity Analysis |
 | Backend | Node.js, Express, REST APIs, Authentication |
 | Databases | PostgreSQL, MongoDB |
 | Web Development | HTML, CSS, JavaScript |

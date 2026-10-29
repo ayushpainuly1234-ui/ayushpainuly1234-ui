@@ -53,6 +53,7 @@ A responsive browser-based music player featuring playlist controls, track searc
 | Category | Skills |
 |---|---|
 | Programming | Java, JavaScript |
+| Core CS | Object-Oriented Programming (OOP), DBMS, Operating Systems (OS), Computer Networks (CN), Low-Level Design (LLD) |
 | Data Structures & Algorithms | Graphs (BFS/DFS, shortest paths, Union-Find/DSU), Dynamic Programming, Backtracking, Trees, Recursion, Complexity Analysis |
 | Backend | Node.js, Express, REST APIs, Authentication |
 | Databases | PostgreSQL, MongoDB |

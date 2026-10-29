@@ -8,6 +8,7 @@ I develop practical software projects and strengthen my problem-solving skills t
 - **Problem-solving practice:** 700+ problems solved across LeetCode, VS Code, and independent practice.
  **Advanced DSA:** Graph Algorithms (BFS/DFS, Shortest Paths, Union-Find/Disjoint Set Union), Dynamic Programming, Backtracking, Trees, and Recursion.
 - **Backend development:** Node.js, Express, REST APIs, authentication, and API integration testing.
+- **Core CS & Design:** Object-Oriented Programming (OOP), DBMS, Operating Systems (OS), Computer Networks (CN), and Low-Level Design (LLD).
 - **Databases:** PostgreSQL and MongoDB, including relational and document-based data modelling.
 - **Engineering workflow:** Git, GitHub, automated checks, technical documentation, and deployment fundamentals.
 

@@ -50,13 +50,11 @@ A responsive frontend project with playlist playback, previous/next controls, ti
 
 [Live demo](https://ayushpainuly1234-ui.github.io/ujjwal-music-player/) · [Source code](https://github.com/ayushpainuly1234-ui/ujjwal-music-player)
 
-### 4. Java DSA Practice — Programming Fundamentals
+### 4. Portfolio & DSA Interview Roadmap
 
-**Java · Arrays · Matrices · Loops · Problem Solving**
+A live portfolio and searchable roadmap to help visitors navigate my projects and DSA practice topics, including graph algorithms and dynamic programming.
 
-A collection of independent Java exercises covering programming basics, number problems, pattern printing, arrays, and 2D-array/matrix operations.
-
-[Open repository](https://github.com/ayushpainuly1234-ui/java-dsa-practice)
+[Live portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/) · [DSA roadmap](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/roadmap.html) · [Portfolio source](https://github.com/ayushpainuly1234-ui/ayushpainuly1234-ui)
 
 ---
 

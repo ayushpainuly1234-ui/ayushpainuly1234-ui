@@ -10,6 +10,24 @@
   const storageKey = "ujjwal-dsa-roadmap-progress-v1";
   let activeFilter = "all";
 
+  const polish = document.createElement("link");
+  polish.rel = "stylesheet";
+  polish.href = "roadmap-polish.css";
+  document.head.appendChild(polish);
+
+  // Add a direct profile link without disturbing any existing roadmap topics.
+  const actions = document.querySelector(".roadmap-actions");
+  if (actions && !actions.querySelector('[data-original-leetcode]')) {
+    const profileLink = document.createElement("a");
+    profileLink.className = "button button-secondary";
+    profileLink.href = "https://leetcode.com/u/CodeForRadheKrishna/";
+    profileLink.target = "_blank";
+    profileLink.rel = "noreferrer";
+    profileLink.dataset.originalLeetcode = "true";
+    profileLink.textContent = "Original LeetCode profile ↗";
+    actions.appendChild(profileLink);
+  }
+
   let saved = {};
   try { saved = JSON.parse(localStorage.getItem(storageKey) || "{}"); } catch { saved = {}; }
   tasks.forEach((task) => {
@@ -23,24 +41,28 @@
 
   function updateProgress() {
     const done = tasks.filter((task) => task.checked).length;
-    progressLabel.textContent = `${done} of ${tasks.length} completed`;
-    progressBar.style.width = `${tasks.length ? (done / tasks.length) * 100 : 0}%`;
-    progressTrack.setAttribute("aria-valuemax", String(tasks.length));
-    progressTrack.setAttribute("aria-valuenow", String(done));
+    if (progressLabel) progressLabel.textContent = `${done} of ${tasks.length} completed`;
+    if (progressBar) progressBar.style.width = `${tasks.length ? (done / tasks.length) * 100 : 0}%`;
+    if (progressTrack) {
+      progressTrack.setAttribute("aria-valuemax", String(tasks.length));
+      progressTrack.setAttribute("aria-valuenow", String(done));
+    }
     sections.forEach((section) => {
       const all = [...section.querySelectorAll("[data-task-id]")];
       const complete = all.filter((task) => task.checked).length;
-      section.querySelector(".category-progress").textContent = `${complete}/${all.length}`;
+      const label = section.querySelector(".category-progress");
+      if (label) label.textContent = `${complete}/${all.length}`;
     });
   }
 
   function applyFilters() {
-    const query = (search.value || "").trim().toLowerCase();
+    const query = (search?.value || "").trim().toLowerCase();
     sections.forEach((section) => {
       const matchesGroup = activeFilter === "all" || section.dataset.group === activeFilter;
       let visible = 0;
       section.querySelectorAll(".roadmap-task").forEach((row) => {
-        const matchesText = !query || row.dataset.search.includes(query);
+        const haystack = (row.dataset.search || row.textContent || "").toLowerCase();
+        const matchesText = !query || haystack.includes(query);
         row.hidden = !(matchesGroup && matchesText);
         if (!row.hidden) visible++;
       });
@@ -48,7 +70,7 @@
     });
   }
 
-  search.addEventListener("input", applyFilters);
+  if (search) search.addEventListener("input", applyFilters);
   filterButtons.forEach((button) => button.addEventListener("click", () => {
     activeFilter = button.dataset.filter;
     filterButtons.forEach((other) => {
@@ -60,7 +82,7 @@
   }));
   filterButtons.forEach((button) => button.setAttribute("aria-pressed", String(button.classList.contains("is-active"))));
 
-  resetButton.addEventListener("click", () => {
+  if (resetButton) resetButton.addEventListener("click", () => {
     if (!window.confirm("Reset all saved DSA checklist progress in this browser?")) return;
     tasks.forEach((task) => { task.checked = false; });
     saved = {};

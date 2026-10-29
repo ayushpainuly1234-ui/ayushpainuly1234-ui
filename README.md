@@ -1,86 +1,76 @@
 # Ujjwal Painuly
 
-**Software Developer · Java & DSA · Backend / Full-Stack Projects**
+**Software Developer | Java, Data Structures & Algorithms | Backend Engineering**
 
-I build practical software projects and practise problem-solving with a focus on clear reasoning, edge cases, complexity, and testable code.
+I develop practical software projects and strengthen my problem-solving skills through consistent algorithmic practice. My approach emphasizes understanding the underlying logic, proving correctness, analysing time and space complexity, handling edge cases, and writing code that can be tested and maintained.
 
-- **Primary problem-solving language:** Java
-- **DSA practice:** 700+ problems across LeetCode and independent practice
-- **Advanced DSA focus:** Graphs, Dynamic Programming, Backtracking, Trees, Recursion, and shortest-path algorithms
-- **Development focus:** REST APIs, authentication, PostgreSQL, MongoDB, backend fundamentals, and deployment
-- **Portfolio:** [Open my portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)
-- **LeetCode:** [View problem-solving profile](https://leetcode.com/u/WqmLOG8Fcr/)
-
----
+- **Primary language:** Java for data structures, algorithms, and problem-solving.
+- **Problem-solving practice:** 700+ problems solved across LeetCode, VS Code, and independent practice.
+- **Advanced DSA:** Graph algorithms, Dynamic Programming, Backtracking, Trees, Recursion, and shortest-path techniques.
+- **Backend development:** Node.js, Express, REST APIs, authentication, and API integration testing.
+- **Databases:** PostgreSQL and MongoDB, including relational and document-based data modelling.
+- **Engineering workflow:** Git, GitHub, automated checks, technical documentation, and deployment fundamentals.
 
 ## Featured Projects
 
-### 1. CivicFix — Full-Stack Civic Issue Reporting & Repair Planner
+### CivicFix — Full-Stack Civic Issue Reporting & Repair Planner
 
-**Node.js · Express · PostgreSQL · MongoDB · JavaScript · GitHub Actions**
+**Node.js · Express · PostgreSQL · MongoDB · JavaScript**
 
-A full-stack portfolio application for submitting infrastructure reports and planning repair work against a limited budget and crew-hour capacity.
+A full-stack portfolio application for reporting civic infrastructure issues and planning repair work within budget and crew-hour constraints.
 
-- REST API with citizen/admin access controls, short-lived versioned sessions, and same-origin mutation checks
-- PostgreSQL for users, road graph, planning history, and audit events; MongoDB for reports
-- **Algorithms:** Dijkstra shortest paths, two-constraint 0/1 Knapsack DP, and Held–Karp route ordering for small stop sets
-- Report pagination and API integration tests using disposable PostgreSQL and MongoDB services in GitHub Actions
-- **[Live demo](https://civicfix-7q99.onrender.com)** · [Source code](https://github.com/ayushpainuly1234-ui/civicfix) · [CI runs](https://github.com/ayushpainuly1234-ui/civicfix/actions)
+- Backend APIs for citizen reports, account access, administrative workflows, and repair planning.
+- PostgreSQL for relational data and planning history; MongoDB for flexible issue reports.
+- Algorithmic planning using Dijkstra shortest paths, 0/1 Knapsack Dynamic Programming, and Held–Karp bitmask DP for route ordering on small stop sets.
+- Integration tests and GitHub Actions workflow for repeatable checks.
 
-> Fictional demo data; this is a portfolio prototype, not an official city service. The free hosted demo may cold-start. Some production features remain future work.
+[Live Demo](https://civicfix-7q99.onrender.com) · [Source Code](https://github.com/ayushpainuly1234-ui/civicfix)
 
-### 2. Advanced Java DSA — Graphs, DP & Backtracking
+*Portfolio prototype using fictional demo data; not an official civic service.*
 
-**Java · Graph Algorithms · Dynamic Programming · Trees · Backtracking**
+### Advanced Java DSA
 
-A topic-organised repository for studying and implementing DSA patterns, with separate topic folders and READMEs.
+**Java · Graphs · Dynamic Programming · Backtracking · Trees**
 
-- **Graphs:** BFS/DFS, cycle detection, shortest paths, minimum spanning trees, topological sorting, connectivity
-- **Dynamic Programming:** pattern-organised problem practice
-- **Backtracking:** permutations, maze/path search, N-Queens, and knight-move problems
-- **Trees:** traversals, construction, tree properties, path problems, and BST operations
+A topic-organised repository for implementing and practising core and advanced data structures and algorithmic patterns.
 
-[Open Advanced Java DSA](https://github.com/ayushpainuly1234-ui/advanced-java-dsa) · [Graphs](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/graphs) · [DP](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/dp) · [Backtracking](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/backtracking)
+- Graph traversal, connectivity, shortest paths, minimum spanning trees, and topological sorting.
+- Dynamic programming practice organised around problem-solving patterns.
+- Backtracking, recursion, tree traversals, and binary search tree operations.
 
-### 3. Ujjwal Music Player — Browser-Based Music Player
+[Repository](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
+
+### EchoTune — Web Music Player
 
 **HTML · CSS · JavaScript · HTML Audio API**
 
-A responsive frontend project with playlist playback, previous/next controls, title filtering, seek controls, and playback progress.
+A responsive browser-based music player featuring playlist controls, track search, playback progress, and seeking.
 
-[Live demo](https://ayushpainuly1234-ui.github.io/ujjwal-music-player/) · [Source code](https://github.com/ayushpainuly1234-ui/ujjwal-music-player)
-
-### 4. Portfolio & DSA Interview Roadmap
-
-A live portfolio and searchable roadmap to help visitors navigate my projects and DSA practice topics, including graph algorithms and dynamic programming.
-
-[Live portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/) · [DSA roadmap](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/roadmap.html) · [Portfolio source](https://github.com/ayushpainuly1234-ui/ayushpainuly1234-ui)
-
----
+[Live Demo](https://ayushpainuly1234-ui.github.io/ujjwal-music-player/) · [Source Code](https://github.com/ayushpainuly1234-ui/ujjwal-music-player)
 
 ## Technical Skills
 
-| Area | Technologies / topics |
+| Category | Skills |
 |---|---|
-| Problem solving | Java, Data Structures & Algorithms, complexity analysis |
-| Advanced DSA | Graphs, Dynamic Programming, Backtracking, Trees, Recursion |
-| Backend | Node.js, Express, REST APIs, authentication |
+| Programming | Java, JavaScript |
+| Data Structures & Algorithms | Graphs, Dynamic Programming, Backtracking, Trees, Recursion, Complexity Analysis |
+| Backend | Node.js, Express, REST APIs, Authentication |
 | Databases | PostgreSQL, MongoDB |
-| Web | HTML, CSS, JavaScript |
-| Engineering workflow | Git, GitHub Actions, API integration tests, technical documentation |
+| Web Development | HTML, CSS, JavaScript |
+| Tools & Practices | VS Code, Git, GitHub Actions, API Integration Testing, Technical Documentation |
 
-## What I’m working toward
+## Current Focus
 
-- Solve unfamiliar DSA problems independently and explain correctness, edge cases, time complexity, and space complexity.
-- Strengthen Java backend development, SQL, API validation, and automated testing.
-- Build and deploy projects with reproducible setup instructions and honest verification.
+- Improve independent problem-solving on unfamiliar DSA problems and clearly explain correctness, edge cases, and complexity.
+- Deepen Java and backend engineering fundamentals, database design, API validation, and automated testing.
+- Build, deploy, and document reliable projects with clear setup instructions and verifiable behaviour.
 
-## Connect
+## Profiles
 
-- [GitHub profile](https://github.com/ayushpainuly1234-ui)
+- [GitHub](https://github.com/ayushpainuly1234-ui)
 - [Portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)
 - [LeetCode](https://leetcode.com/u/WqmLOG8Fcr/)
 
 ---
 
-*Learn consistently. Build carefully. Verify honestly.*
+*Understand the problem. Design the solution. Test the edge cases.*

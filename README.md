@@ -1,77 +1,83 @@
 # Ujjwal Painuly
 
-**Software Developer | Java, Data Structures & Algorithms | Backend Engineering**
+**Software Developer | Java | Data Structures & Algorithms | Backend Engineering**
 
-I develop practical software projects and strengthen my problem-solving skills through consistent algorithmic practice. My approach emphasizes understanding the underlying logic, proving correctness, analysing time and space complexity, handling edge cases, and writing code that can be tested and maintained.
+I build practical software projects and practise problem-solving with a focus on clear logic, correctness, edge cases, and time/space complexity.
 
-- **Primary language:** Java for data structures, algorithms, and problem-solving.
-- **Problem-solving practice:** 700+ problems solved across LeetCode, VS Code, and independent practice.
- **Advanced DSA:** Graph Algorithms (BFS/DFS, Shortest Paths, Union-Find/Disjoint Set Union), Dynamic Programming, Backtracking, Trees, and Recursion.
-- **Backend development:** Node.js, Express, REST APIs, authentication, and API integration testing.
-- **Core CS & Design:** Object-Oriented Programming (OOP), DBMS, Operating Systems (OS), Computer Networks (CN), and Low-Level Design (LLD).
-- **Databases:** PostgreSQL and MongoDB, including relational and document-based data modelling.
-- **Engineering workflow:** Git, GitHub, automated checks, technical documentation, and deployment fundamentals.
+## DSA Focus
+
+**Java is my primary language for DSA and problem-solving.**
+
+- **Core foundations:** Arrays, Strings, Linked Lists, Recursion, Searching, Sorting, Stacks, Queues, Hashing, and Binary Search.
+- **Trees:** Binary Trees, BSTs, tree traversals, and common tree patterns.
+- **Graphs:** BFS/DFS, connectivity, shortest paths, Union-Find/DSU, minimum spanning trees, and topological sorting.
+- **Dynamic Programming:** State definition, transitions, memoization, tabulation, space optimization, and advanced patterns.
+- **Backtracking:** Recursion trees, constraint handling, pruning, and combinatorial search.
+- **Problem-solving practice:** 700+ problems across LeetCode, VS Code, and independent practice.
+
+### DSA links
+
+- [Full interactive DSA roadmap](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/roadmap.html)
+- [Advanced Java DSA repository](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
+- [Graphs folder](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/graphs)
+- [Dynamic Programming folder](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/dp)
+- [Backtracking folder](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/backtracking)
+- [Trees folder](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/trees)
+- [Java DSA practice repository](https://github.com/ayushpainuly1234-ui/java-dsa-practice)
 
 ## Featured Projects
 
-### CivicFix — Full-Stack Civic Issue Reporting & Repair Planner
+### CivicFix — Civic Issue Reporting & Repair Planner
 
-**Node.js · Express · PostgreSQL · MongoDB · JavaScript**
+A full-stack portfolio application for reporting civic infrastructure issues and exploring repair planning under budget and crew-hour constraints.
 
-A full-stack portfolio application for reporting civic infrastructure issues and planning repair work within budget and crew-hour constraints.
-
-- Backend APIs for citizen reports, account access, administrative workflows, and repair planning.
+- Backend APIs for reports, account access, administrative workflows, and repair planning.
 - PostgreSQL for relational data and planning history; MongoDB for flexible issue reports.
-- Algorithmic planning using Dijkstra shortest paths, 0/1 Knapsack Dynamic Programming, and Held–Karp bitmask DP for route ordering on small stop sets.
-- Integration tests and GitHub Actions workflow for repeatable checks.
+- Algorithmic planning experiments using Dijkstra shortest paths, 0/1 Knapsack DP, and Held–Karp bitmask DP for small stop sets.
+- Integration tests and GitHub Actions checks.
 
-[Live Demo](https://civicfix-7q99.onrender.com) · [Source Code](https://github.com/ayushpainuly1234-ui/civicfix)
+[Live demo](https://civicfix-7q99.onrender.com) · [Source code](https://github.com/ayushpainuly1234-ui/civicfix)
 
 *Portfolio prototype using fictional demo data; not an official civic service.*
 
 ### Advanced Java DSA
 
-**Java · Graphs · Dynamic Programming · Backtracking · Trees**
+A topic-organised repository for practising core and advanced data structures and algorithmic patterns.
 
-A topic-organised repository for implementing and practising core and advanced data structures and algorithmic patterns.
+[Open repository](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
 
-- Graph traversal, connectivity, shortest paths, minimum spanning trees, and topological sorting.
-- Dynamic programming practice organised around problem-solving patterns.
-- Backtracking, recursion, tree traversals, and binary search tree operations.
+### Ujjwal Music Player
 
-[Repository](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
+A responsive browser-based music player with playlist controls, track search, playback progress, and seeking.
 
-### EchoTune — Web Music Player
-
-**HTML · CSS · JavaScript · HTML Audio API**
-
-A responsive browser-based music player featuring playlist controls, track search, playback progress, and seeking.
-
-[Live Demo](https://ayushpainuly1234-ui.github.io/ujjwal-music-player/) · [Source Code](https://github.com/ayushpainuly1234-ui/ujjwal-music-player)
+[Live demo](https://ayushpainuly1234-ui.github.io/ujjwal-music-player/) · [Source code](https://github.com/ayushpainuly1234-ui/ujjwal-music-player)
 
 ## Technical Skills
 
 | Category | Skills |
 |---|---|
-| Programming | Java, JavaScript |
-| Core CS | Object-Oriented Programming (OOP), DBMS, Operating Systems (OS), Computer Networks (CN), Low-Level Design (LLD) |
-| Data Structures & Algorithms | Graphs (BFS/DFS, shortest paths, Union-Find/DSU), Dynamic Programming, Backtracking, Trees, Recursion, Complexity Analysis |
+| Programming languages | Java, C |
+| Data Structures & Algorithms | Arrays, Strings, Linked Lists, Recursion, Trees, Graphs, Dynamic Programming, Backtracking, Complexity Analysis |
 | Backend | Node.js, Express, REST APIs, Authentication |
 | Databases | PostgreSQL, MongoDB |
-| Web Development | HTML, CSS, JavaScript |
-| Tools & Practices | VS Code, Git, GitHub Actions, API Integration Testing, Technical Documentation |
+| Web fundamentals | HTML, CSS, JavaScript basics |
+| Core CS | OOP, DBMS, Operating Systems, Computer Networks |
+| Tools & practices | VS Code, Git, GitHub Actions, API testing, technical documentation |
 
 ## Current Focus
 
-- Improve independent problem-solving on unfamiliar DSA problems and clearly explain correctness, edge cases, and complexity.
-- Deepen Java and backend engineering fundamentals, database design, API validation, and automated testing.
-- Build, deploy, and document reliable projects with clear setup instructions and verifiable behaviour.
+- Strengthen independent problem-solving on unfamiliar DSA problems.
+- Explain correctness, edge cases, and time/space complexity clearly.
+- Improve Java and backend fundamentals, database design, API validation, and automated testing.
+- Build and document reliable projects with verifiable behaviour.
 
-## Profiles
+## Profiles & Links
 
-- [GitHub](https://github.com/ayushpainuly1234-ui)
-- [Portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)
-- [LeetCode](https://leetcode.com/u/code_with_ujjwal26/)
+- [Portfolio website](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)
+- [GitHub profile](https://github.com/ayushpainuly1234-ui)
+- [Original LeetCode profile — CodeForRadheKrishna](https://leetcode.com/u/CodeForRadheKrishna/)
+- [Advanced Java DSA](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
+- [Java DSA Practice](https://github.com/ayushpainuly1234-ui/java-dsa-practice)
 
 ---
 

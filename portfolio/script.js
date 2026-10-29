@@ -45,6 +45,11 @@
       <p class="eyebrow">CORE STRENGTH · JAVA PROBLEM SOLVING</p>
       <h2>Data Structures &amp; Algorithms <span class="gradient-text">first.</span></h2>
       <p class="dsa-lede">Explore the roadmap topic by topic, open the matching Java practice folders, and track your interview-preparation progress. The existing roadmap checklist and its problem links are preserved.</p>
+      <a class="leetcode-profile-card" href="https://leetcode.com/u/code_with_ujjwal26/" target="_blank" rel="noreferrer" aria-label="Open Code With Ujjwal LeetCode profile">
+        <span class="leetcode-badge-wrap"><img src="https://assets.leetcode.com/static_assets/others/100_1080_1080.png" alt="LeetCode 100 badge" loading="lazy"></span>
+        <span class="leetcode-profile-copy"><span class="leetcode-kicker">LEETCODE PROFILE</span><strong>Code With Ujjwal</strong><span class="leetcode-handle">@code_with_ujjwal26</span><span class="leetcode-motto">Consistency · Solve a problem. Learn every day.</span></span>
+        <span class="leetcode-rank"><span>GLOBAL RANK</span><strong>169,306</strong><small>View profile ↗</small></span>
+      </a>
       <div class="dsa-topic-grid">
         <a class="dsa-topic" href="https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/graphs" target="_blank" rel="noreferrer"><strong>Graphs</strong><span>BFS · DFS · shortest paths ↗</span></a>
         <a class="dsa-topic" href="https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/dp" target="_blank" rel="noreferrer"><strong>Dynamic Programming</strong><span>States · transitions · patterns ↗</span></a>
@@ -54,11 +59,11 @@
       <div class="dsa-actions">
         <a class="button button-primary" href="roadmap.html">Open full DSA roadmap ↗</a>
         <a class="button button-secondary" href="https://github.com/ayushpainuly1234-ui/advanced-java-dsa" target="_blank" rel="noreferrer">All Java DSA files ↗</a>
-        <a class="button button-secondary" href="https://leetcode.com/u/CodeForRadheKrishna/" target="_blank" rel="noreferrer">Original LeetCode profile ↗</a>
+        <a class="button button-secondary" href="https://leetcode.com/u/code_with_ujjwal26/" target="_blank" rel="noreferrer">Original LeetCode profile ↗</a>
       </div>
       <div class="profile-links" aria-label="Developer profiles">
         <a href="https://github.com/ayushpainuly1234-ui" target="_blank" rel="noreferrer">GitHub ↗</a>
-        <a href="https://leetcode.com/u/CodeForRadheKrishna/" target="_blank" rel="noreferrer">LeetCode ↗</a>
+        <a href="https://leetcode.com/u/code_with_ujjwal26/" target="_blank" rel="noreferrer">LeetCode ↗</a>
         <a href="https://github.com/ayushpainuly1234-ui/java-dsa-practice" target="_blank" rel="noreferrer">Java DSA Practice ↗</a>
       </div>`;
     const hero = document.querySelector(".hero");

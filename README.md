@@ -75,7 +75,7 @@ A responsive browser-based music player with playlist controls, track search, pl
 
 - [Portfolio website](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)
 - [GitHub profile](https://github.com/ayushpainuly1234-ui)
-- [Original LeetCode profile — CodeForRadheKrishna](https://leetcode.com/u/CodeForRadheKrishna/)
+- [LeetCode — Code With Ujjwal (@code_with_ujjwal26)](https://leetcode.com/u/code_with_ujjwal26/)
 - [Advanced Java DSA](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
 - [Java DSA Practice](https://github.com/ayushpainuly1234-ui/java-dsa-practice)
 

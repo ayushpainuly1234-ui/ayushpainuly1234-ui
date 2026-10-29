@@ -20,7 +20,8 @@ I'm an early-career developer focused on **Java, data structures and algorithms,
 A full-stack portfolio project for reporting local infrastructure issues and planning repair work with a limited budget.
 - **Tech:** Node.js, Express, PostgreSQL, MongoDB, HTML, CSS, JavaScript
 - **Engineering concepts:** REST APIs, authentication, data persistence, shortest paths, and dynamic programming
-- **Status:** **In progress.** Deployment and end-to-end database verification are not complete; no live production demo is claimed.
+- **Live demo:** [Open CivicFix](https://civicfix-7q99.onrender.com) · [API health check](https://civicfix-7q99.onrender.com/api/health)
+- **Status:** Deployed on Render. Portfolio demo with fictional seeded data; main user flows still need end-to-end verification before production use.
 
 ### [Advanced Java DSA](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
 A topic-organized repository of Java practice covering graphs, trees, backtracking, and dynamic programming.

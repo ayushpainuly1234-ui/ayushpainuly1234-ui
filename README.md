@@ -69,7 +69,7 @@ A responsive browser-based music player featuring playlist controls, track searc
 
 - [GitHub](https://github.com/ayushpainuly1234-ui)
 - [Portfolio](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)
-- [LeetCode](https://leetcode.com/u/WqmLOG8Fcr/)
+- [LeetCode](https://leetcode.com/u/code_with_ujjwal26/)
 
 ---
 

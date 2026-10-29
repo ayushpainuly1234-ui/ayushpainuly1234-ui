@@ -33,3 +33,11 @@
 .roadmap-footnote { max-width: 760px; margin: 24px auto 40px; color: var(--soft, #737f9c); font-size: 12px; line-height: 1.8; }
 @media (max-width: 760px) { .roadmap-controls { top: 68px; padding: 13px; } .roadmap-category > summary { padding: 15px 13px; } .category-meta { gap: 6px; } .roadmap-list { padding-inline: 8px; } .roadmap-task { padding: 10px 8px; gap: 8px; } .task-open { font-size: 9px; } }
 @media (max-width: 430px) { .roadmap-progress-note { display: none; } .category-count { display: none; } .task-link { align-items: flex-start; } .task-open { padding-top: 2px; } }
+
+/* Roadmap page profile and section navigation polish */
+.roadmap-hero { position: relative; }
+.roadmap-hero::after { content: "JAVA · DSA · INTERVIEW PREP"; display: inline-flex; margin-top: 24px; padding: 8px 12px; border: 1px solid rgba(107,229,211,.2); border-radius: 999px; color: #9ee8de; background: rgba(107,229,211,.045); font: 9px var(--mono, monospace); letter-spacing: .1em; }
+.roadmap-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.roadmap-controls { margin-bottom: 18px; }
+.roadmap-category > summary { gap: 10px; }
+@media (max-width: 620px) { .roadmap-hero::after { font-size: 8px; } .roadmap-actions .button { flex: 1 1 auto; } }

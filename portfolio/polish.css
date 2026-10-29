@@ -23,3 +23,18 @@ a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visibl
 @media (max-width: 760px) { .dsa-topic-grid { grid-template-columns: repeat(2, minmax(0,1fr)); } .dsa-highlight { border-radius: 18px; } }
 @media (max-width: 420px) { .dsa-topic-grid { grid-template-columns: 1fr 1fr; gap: 8px; } .dsa-topic { padding: 12px; } }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; } }
+
+/* LeetCode profile feature */
+.leetcode-profile-card { display: grid; grid-template-columns: 76px minmax(0,1fr) auto; align-items: center; gap: 18px; margin: 24px 0 26px; padding: 18px; border: 1px solid rgba(107,229,211,.27); border-radius: 18px; background: linear-gradient(110deg, rgba(107,229,211,.075), rgba(120,164,255,.06) 60%, rgba(16,24,43,.7)); box-shadow: 0 12px 36px rgba(0,0,0,.12); }
+.leetcode-profile-card:hover { transform: translateY(-2px); border-color: rgba(107,229,211,.5); box-shadow: 0 16px 42px rgba(0,0,0,.2); }
+.leetcode-badge-wrap { display: grid; place-items: center; width: 76px; height: 76px; overflow: hidden; border: 1px solid rgba(255,255,255,.13); border-radius: 16px; background: rgba(255,255,255,.04); }
+.leetcode-badge-wrap img { display: block; width: 100%; height: 100%; object-fit: contain; }
+.leetcode-profile-copy { display: flex; min-width: 0; flex-direction: column; align-items: flex-start; gap: 3px; }
+.leetcode-kicker, .leetcode-rank > span { color: #91b5e9; font: 9px/1.5 var(--mono, monospace); letter-spacing: .12em; }
+.leetcode-profile-copy strong { color: var(--text, #f1f4ff); font-size: clamp(16px, 2vw, 20px); line-height: 1.35; letter-spacing: -.03em; }
+.leetcode-handle { color: var(--muted, #a0aac3); font: 11px/1.5 var(--mono, monospace); }
+.leetcode-motto { margin-top: 3px; color: #8de3d6; font-size: 11px; line-height: 1.5; }
+.leetcode-rank { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; text-align: right; white-space: nowrap; }
+.leetcode-rank strong { font-size: clamp(20px, 3vw, 27px); line-height: 1.2; letter-spacing: -.045em; color: var(--text, #f1f4ff); font-variant-numeric: tabular-nums; }
+.leetcode-rank small { color: #8de3d6; font-size: 10px; }
+@media (max-width: 620px) { .leetcode-profile-card { grid-template-columns: 58px minmax(0,1fr); gap: 12px; padding: 13px; } .leetcode-badge-wrap { width: 58px; height: 58px; border-radius: 12px; } .leetcode-rank { grid-column: 2; align-items: flex-start; text-align: left; } .leetcode-motto { font-size: 10px; } }

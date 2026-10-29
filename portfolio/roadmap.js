@@ -10,11 +10,6 @@
   const storageKey = "ujjwal-dsa-roadmap-progress-v1";
   let activeFilter = "all";
 
-  const polish = document.createElement("link");
-  polish.rel = "stylesheet";
-  polish.href = "roadmap-polish.css";
-  document.head.appendChild(polish);
-
   // Add a direct profile link without disturbing any existing roadmap topics.
   const actions = document.querySelector(".roadmap-actions");
   if (actions && !actions.querySelector('[data-original-leetcode]')) {

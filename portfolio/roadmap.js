@@ -20,7 +20,7 @@
   if (actions && !actions.querySelector('[data-original-leetcode]')) {
     const profileLink = document.createElement("a");
     profileLink.className = "button button-secondary";
-    profileLink.href = "https://leetcode.com/u/CodeForRadheKrishna/";
+    profileLink.href = "https://leetcode.com/u/code_with_ujjwal26/";
     profileLink.target = "_blank";
     profileLink.rel = "noreferrer";
     profileLink.dataset.originalLeetcode = "true";

@@ -5,12 +5,6 @@
 
   if (year) year.textContent = new Date().getFullYear();
 
-  // Load a small additive stylesheet without changing the existing page structure.
-  const polish = document.createElement("link");
-  polish.rel = "stylesheet";
-  polish.href = "polish.css";
-  document.head.appendChild(polish);
-
   if (toggle && links) {
     toggle.addEventListener("click", () => {
       const expanded = toggle.getAttribute("aria-expanded") === "true";

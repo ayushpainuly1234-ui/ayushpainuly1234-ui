@@ -13,3 +13,15 @@ html{scroll-behavior:smooth;scroll-padding-top:90px}body{background:var(--bg);co
 @media(max-width:760px){.wrap{width:calc(100% - 36px)}.nav{min-height:68px}.nav-links{background:#f4f1e9;border:1px solid var(--line);box-shadow:0 15px 30px rgba(32,40,32,.1)}.nav-links.is-open{padding:16px}.hero{grid-template-columns:1fr;min-height:auto;padding-top:65px;padding-bottom:65px}.hero h1{font-size:clamp(48px,11vw,72px)}.hero-visual{min-height:390px;margin-top:6px}.float-label-top{right:0}.float-label-bottom{left:0}.principles-inner{padding:20px 0;flex-wrap:wrap;justify-content:flex-start}.principles-inner>p{width:100%}.section{padding-top:76px;padding-bottom:76px}.about-grid{grid-template-columns:1fr;gap:20px}.project-grid{grid-template-columns:1fr}.project-featured{grid-column:auto;display:flex;flex-direction:column}.project-featured .project-art{margin:12px 18px 0;min-height:190px}.project-featured .project-content{padding:19px 20px 22px}.toolkit-grid{grid-template-columns:1fr 1fr}.footer-inner{padding:22px 0;flex-wrap:wrap}}
 @media(max-width:480px){.wrap{width:calc(100% - 30px)}.hero h1{font-size:clamp(43px,13vw,58px)}.hero-lede{font-size:13px}.hero-actions .button{flex:1 1 100%}.hero-visual{min-height:330px}.code-body{padding:20px 9px;font-size:8px}.float-label{padding:9px}.float-label-top{top:0}.float-label-bottom{bottom:0}.section-title-row{align-items:flex-start;gap:12px;flex-direction:column}.toolkit-grid{grid-template-columns:1fr}.contact-section{padding:65px 0}.leetcode-profile-card{grid-template-columns:52px minmax(0,1fr);padding:12px}.leetcode-badge-wrap{width:52px;height:52px}.leetcode-rank{grid-column:2;align-items:flex-start;text-align:left}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+/* Restrained 3D depth and smooth hover transitions. */
+.hero-visual{perspective:1100px}
+.code-card{transform:rotateY(-7deg) rotateX(2deg);transform-style:preserve-3d;transition:transform .45s ease,box-shadow .45s ease}
+.hero-visual:hover .code-card{transform:rotateY(-1deg) rotateX(0deg) translateY(-5px);box-shadow:20px 22px 0 rgba(32,40,32,.12),0 42px 90px rgba(32,40,32,.2)}
+.project-card{transform-style:preserve-3d;transition:transform .35s ease,border-color .35s ease,box-shadow .35s ease}
+.project-card:hover{transform:perspective(900px) rotateX(1.5deg) rotateY(-.8deg) translateY(-6px);box-shadow:0 22px 38px rgba(32,40,32,.12)}
+.toolkit-card{transform-style:preserve-3d;transition:transform .3s ease,box-shadow .3s ease}
+.toolkit-card:hover{transform:perspective(700px) rotateX(1.5deg) translateY(-4px)}
+@media(prefers-reduced-motion:reduce){
+  .code-card,.project-card,.toolkit-card{transition:none}
+  .hero-visual:hover .code-card,.project-card:hover,.toolkit-card:hover{transform:none}
+}

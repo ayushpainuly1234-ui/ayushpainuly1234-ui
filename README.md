@@ -17,7 +17,7 @@ I build practical software projects and practise problem-solving with a focus on
 
 ### DSA links
 
-- [Full interactive DSA roadmap](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/roadmap.html)
+- [Full interactive DSA roadmap — same portfolio page](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/#roadmap)
 - [Advanced Java DSA repository](https://github.com/ayushpainuly1234-ui/advanced-java-dsa)
 - [Graphs folder](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/graphs)
 - [Dynamic Programming folder](https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/dp)

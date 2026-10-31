@@ -71,6 +71,18 @@ A responsive browser-based music player with playlist controls, track search, pl
 - Improve Java and backend fundamentals, database design, API validation, and automated testing.
 - Build and document reliable projects with verifiable behaviour.
 
+## 🎥 The Channel — Code With Ujjwal
+
+Sharing my coding journey, Data Structures & Algorithms, problem-solving, and practical software development learnings.
+
+<p align="left">
+  <a href="https://www.youtube.com/@Ujjwalpainuly09">
+    <img src="https://img.shields.io/badge/YouTube-Code%20With%20Ujjwal-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Code With Ujjwal on YouTube" />
+  </a>
+</p>
+
+**[▶ Visit Code With Ujjwal on YouTube](https://www.youtube.com/@Ujjwalpainuly09)**
+
 ## Profiles & Links
 
 - [Portfolio website](https://ayushpainuly1234-ui.github.io/ayushpainuly1234-ui/)

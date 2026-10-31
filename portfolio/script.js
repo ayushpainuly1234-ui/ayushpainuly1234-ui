@@ -51,7 +51,7 @@
         <a class="dsa-topic" href="https://github.com/ayushpainuly1234-ui/advanced-java-dsa/tree/main/trees" target="_blank" rel="noreferrer"><strong>Trees &amp; BST</strong><span>Traversal · structure · search ↗</span></a>
       </div>
       <div class="dsa-actions">
-        <a class="button button-primary" href="roadmap.html">Open full DSA roadmap ↗</a>
+        <a class="button button-primary" href="#roadmap">Open full DSA roadmap ↗</a>
         <a class="button button-secondary" href="https://github.com/ayushpainuly1234-ui/advanced-java-dsa" target="_blank" rel="noreferrer">All Java DSA files ↗</a>
         <a class="button button-secondary" href="https://leetcode.com/u/code_with_ujjwal26/" target="_blank" rel="noreferrer">Original LeetCode profile ↗</a>
       </div>
